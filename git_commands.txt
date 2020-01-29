@@ -1,0 +1,22 @@
+#Sample git commands
+
+#Clone this remote repository locally on your computer
+git clone https://github.com/ShareOurStrength/Data-Wranglers-Data-Engineering-Project.git
+
+#Work on code and processes locally, add new folders and files as would in any other project. Keep an eye for files more than 50MB.
+du -m Data/*/*/*|sort -n
+
+#When you are ready to update this repository, which I highly recommend doing at least on a weekly basis, then run all following commands
+git status
+
+#Add local code to temporary git directory
+git add .
+
+#Commit/finalize copying temporary git directory to remote Github repository, using a meaningful description, for example
+git commit -m 'Update Readme and add git_commands.txt'
+
+#Push all local changes to remote repository in Github
+git push origin master
+
+#Optional, feel free to run the following command to sync your local repository with any changes someone else might have committed since your last update
+git pull

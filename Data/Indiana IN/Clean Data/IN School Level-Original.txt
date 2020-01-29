@@ -1,0 +1,51 @@
+School Level-Original,Number of Records
+Null,218
+01-05,5
+01-06,15
+01-08,2
+02-03,2
+02-04,1
+02-05,5
+03-04,2
+03-05,20
+03-06,9
+04-05,4
+04-06,12
+04-08,2
+04-12,4
+05-06,16
+05-08,34
+05-12,2
+06-06,3 #Primary
+06-08,165
+06-10,1
+06-12,28
+07-08,68
+07-10,1 #Middle
+07-12,75
+08-12,1
+09-09,1 #Middle
+09-12,257
+10-12,2
+KG-01,3 #Primary
+KG-02,11 #Primary
+KG-03,15 #Primary
+KG-04,77 #Primary
+KG-05,256 #Primary
+KG-06,128 #Primary
+KG-07,1 #Other
+KG-08,64 #Other
+KG-12,18 #Other
+PK-01,6 #Primary
+PK-02,21 #Primary
+PK-03,7 #Primary
+PK-04,74 #Primary
+PK-05,211 #Primary
+PK-06,151 #Primary
+PK-07,4 #Other
+PK-08,128 #Other
+PK-12,10 #Other
+PK-KG,4 ?
+PK-PK,18 ?
+PW-12,1 ?
+VO-ED,5 ?
