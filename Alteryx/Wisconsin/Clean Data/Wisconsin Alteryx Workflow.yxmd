@@ -1,0 +1,1857 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS
+Query=`Sheet 1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AGENCY_CODE" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="AGENCY_NAME" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="DPI_SITE_CODE" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="SCHOOL_NAME" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="PROGRAM" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="DATE_CLAIM" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="CEP_PARTICIPATION" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="ENROLLMENT" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="DAYS_OPERATING" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="FOOD_FREE" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="FOOD_REDUCED_PRICED" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="FOOD_FULL_PRICE" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="TRADITIONAL_MODEL" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="MID_MORNING_MODEL" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="CLASSROOM_MODEL" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="REDUCED_PRICE_MODEL" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="GRAB_N_GO_MODEL" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="FREE_MODEL" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\DPI SEP_2018_JUNE_2019_SBP_MEAL_PARTIC - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="AGENCY_CODE" selected="True" rename="District ID" type="String" size="255" />
+            <SelectField field="AGENCY_NAME" selected="True" rename="District Name" />
+            <SelectField field="DPI_SITE_CODE" selected="True" rename="School ID" type="String" size="255" />
+            <SelectField field="SCHOOL_NAME" selected="True" rename="School Name" />
+            <SelectField field="PROGRAM" selected="False" />
+            <SelectField field="DATE_CLAIM" selected="True" rename="Claim Date" />
+            <SelectField field="CEP_PARTICIPATION" selected="True" rename="CEP (Y/N)" />
+            <SelectField field="ENROLLMENT" selected="True" rename="Enrollment-Total" type="Int32" size="4" />
+            <SelectField field="DAYS_OPERATING" selected="True" rename="Operating Days-Breakfast Only" type="FixedDecimal" size="3.0" />
+            <SelectField field="FOOD_FREE" selected="True" rename="Breakfast Meals-Free" type="Int32" size="4" />
+            <SelectField field="FOOD_REDUCED_PRICED" selected="True" rename="Breakfast Meals-Reduced" type="Int32" size="4" />
+            <SelectField field="FOOD_FULL_PRICE" selected="True" rename="Breakfast Meals-Paid" type="Int32" size="4" />
+            <SelectField field="TRADITIONAL_MODEL" selected="True" />
+            <SelectField field="MID_MORNING_MODEL" selected="True" />
+            <SelectField field="CLASSROOM_MODEL" selected="True" />
+            <SelectField field="REDUCED_PRICE_MODEL" selected="True" />
+            <SelectField field="GRAB_N_GO_MODEL" selected="True" />
+            <SelectField field="FREE_MODEL" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="618" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [TRADITIONAL_MODEL]==&quot;Y&quot;&#xA;THEN &quot;TRADITIONAL_MODEL,&quot;&#xA;ELSE &quot;&quot;&#xA;ENDIF" field="TEST1" size="64" type="String" />
+            <FormulaField expression="IF [MID_MORNING_MODEL]==&quot;Y&quot;&#xA;THEN &quot;MID_MORNING_MODEL,&quot;&#xA;ELSE &quot;&quot;&#xA;ENDIF" field="TEST2" size="64" type="String" />
+            <FormulaField expression="IF [CLASSROOM_MODEL]==&quot;Y&quot;&#xA;THEN &quot;CLASSROOM_MODEL,&quot;&#xA;ELSE &quot;&quot;&#xA;ENDIF" field="TEST3" size="64" type="String" />
+            <FormulaField expression="IF [REDUCED_PRICE_MODEL]==&quot;Y&quot;&#xA;THEN &quot;REDUCED_PRICE_MODEL,&quot;&#xA;ELSE &quot;&quot;&#xA;ENDIF" field="TEST4" size="64" type="String" />
+            <FormulaField expression="IF [GRAB_N_GO_MODEL]==&quot;Y&quot;&#xA;THEN &quot;GRAB_N_GO_MODEL,&quot;&#xA;ELSE &quot;&quot;&#xA;ENDIF" field="TEST5" size="64" type="String" />
+            <FormulaField expression="IF [FREE_MODEL]==&quot;Y&quot;&#xA;THEN &quot;FREE_MODEL,&quot;&#xA;ELSE &quot;&quot;&#xA;ENDIF" field="TEST6" size="64" type="String" />
+            <FormulaField expression="[TEST1]+[TEST2]+[TEST3]+[TEST4]+[TEST5]+[TEST6]" field="Breakfast Delivery Model from State Agency Tracking-Original" size="128" type="String" />
+            <FormulaField expression="[District ID]+[School ID]+[Claim Date]" field="District ID_School ID_Date" size="64" type="String" />
+            <FormulaField expression="IF(Length([District ID]) &lt; 6)&#xA;THEN&#xA;PadLeft(tostring([District ID]), 6, &quot;0&quot;)&#xA;ELSE&#xA;[District ID]&#xA;ENDIF&#xA;&#xA;" field="District ID" size="255" type="String" />
+            <FormulaField expression="IF(Length([School ID]) &lt; 4)&#xA;THEN&#xA;PadLeft(tostring([School ID]), 4, &quot;0&quot;)&#xA;ELSE&#xA;[School ID]&#xA;ENDIF&#xA;" field="School ID" size="255" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TEST1 = IF [TRADITIONAL_MODEL]=="Y"
+THEN "TRADITIONAL_MODEL,"
+ELSE ""
+ENDIF
+TEST...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Admin\AppData\Local\Temp\Engine_5708_b7ff4645b13e41f2a6afddf555d16972_\Engine_15984_f1dfbb2e563d4b50984f0870b4f22629_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="234" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="AGENCY_CODE" selected="True" />
+            <Field field="AGENCY_NAME" selected="True" />
+            <Field field="DPI_SITE_CODE" selected="True" />
+            <Field field="SCHOOL_NAME" selected="True" />
+            <Field field="PROGRAM" selected="True" />
+            <Field field="DATE_CLAIM" selected="True" />
+            <Field field="CEP_PARTICIPATION" selected="True" />
+            <Field field="ENROLLMENT" selected="True" />
+            <Field field="DAYS_OPERATING" selected="True" />
+            <Field field="FOOD_FREE" selected="True" />
+            <Field field="FOOD_REDUCED_PRICED" selected="True" />
+            <Field field="FOOD_FULL_PRICE" selected="True" />
+            <Field field="TRADITIONAL_MODEL" selected="True" />
+            <Field field="MID_MORNING_MODEL" selected="True" />
+            <Field field="CLASSROOM_MODEL" selected="True" />
+            <Field field="REDUCED_PRICE_MODEL" selected="True" />
+            <Field field="GRAB_N_GO_MODEL" selected="True" />
+            <Field field="FREE_MODEL" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AGENCY_CODE" source="Formula: [_CurrentField_]" type="Int32" />
+            <Field name="AGENCY_NAME" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="DPI_SITE_CODE" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="SCHOOL_NAME" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="PROGRAM" size="8" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="DATE_CLAIM" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="CEP_PARTICIPATION" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="ENROLLMENT" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="DAYS_OPERATING" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="FOOD_FREE" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="FOOD_REDUCED_PRICED" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="FOOD_FULL_PRICE" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="TRADITIONAL_MODEL" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MID_MORNING_MODEL" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="CLASSROOM_MODEL" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="REDUCED_PRICE_MODEL" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="GRAB_N_GO_MODEL" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="FREE_MODEL" size="1" source="Formula: [_CurrentField_]" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS
+Query=`Sheet 1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Unique ID" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Agency Code" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="School District Name" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Site ID" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="School Name" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Program" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Date Claim (Month)" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Enrollment" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Number Operating Days of Service" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Free Eligible Enrollment" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Reduced Price Eligible Enrollment" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Total Free Lunch Served" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Total Reduced Price Lunch Served" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Total Paid Lunch Served" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Type of School" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="School Street Address" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="City" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Zip" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="County" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Public (Y/N)" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Provision 2" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="CEP Participation" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="V_WString" />
+            <Field name="Identified Student Percentage" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\SEP_2018_JUNE_2019_NSLP_MEAL_PARTICIPATION - Strength.XLS|||`Sheet 1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="246" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Unique ID" selected="True" />
+            <Field field="Agency Code" selected="True" />
+            <Field field="School District Name" selected="True" />
+            <Field field="Site ID" selected="True" />
+            <Field field="School Name" selected="True" />
+            <Field field="Program" selected="True" />
+            <Field field="Date Claim (Month)" selected="True" />
+            <Field field="Enrollment" selected="True" />
+            <Field field="Number Operating Days of Service" selected="True" />
+            <Field field="Free Eligible Enrollment" selected="True" />
+            <Field field="Reduced Price Eligible Enrollment" selected="True" />
+            <Field field="Total Free Lunch Served" selected="True" />
+            <Field field="Total Reduced Price Lunch Served" selected="True" />
+            <Field field="Total Paid Lunch Served" selected="True" />
+            <Field field="Type of School" selected="True" />
+            <Field field="School Street Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="County" selected="True" />
+            <Field field="Public (Y/N)" selected="True" />
+            <Field field="Provision 2" selected="True" />
+            <Field field="CEP Participation" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Unique ID" source="Formula: [_CurrentField_]" type="Int64" />
+            <Field name="Agency Code" source="Formula: [_CurrentField_]" type="Int32" />
+            <Field name="School District Name" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Site ID" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="School Name" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Program" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Date Claim (Month)" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Enrollment" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="Number Operating Days of Service" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="Free Eligible Enrollment" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="Reduced Price Eligible Enrollment" source="Formula: [_CurrentField_]" type="Byte" />
+            <Field name="Total Free Lunch Served" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="Total Reduced Price Lunch Served" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="Total Paid Lunch Served" source="Formula: [_CurrentField_]" type="Int16" />
+            <Field name="Type of School" size="23" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="School Street Address" size="37" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="City" size="17" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Zip" source="Formula: [_CurrentField_]" type="Int32" />
+            <Field name="County" size="11" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Public (Y/N)" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Provision 2" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="CEP Participation" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Identified Student Percentage" source="Formula: IF [_CurrentFieldName_] IN(&quot;Unique ID&quot;,&quot;Agency Code&quot;,&quot;School District Name&quot;,&quot;Site ID&quot;,&quot;School Name&quot;,&quot;Program&quot;,&quot;Date Claim (Month)&quot;,&quot;Enrollment&quot;,&quot;Number Operating Days of Service&quot;,&quot;Free Eligible Enrollment&quot;,&quot;Reduced Price Eligible Enrollment&quot;,&quot;Total Free Lunch Served&quot;,&quot;Total Reduced Price Lunch Served&quot;,&quot;Total Paid Lunch Served&quot;,&quot;Type of School&quot;,&quot;School Street Address&quot;,&quot;City&quot;,&quot;Zip&quot;,&quot;County&quot;,&quot;Public (Y/N)&quot;,&quot;Provision 2&quot;,&quot;CEP Participation&quot;,&quot;Identified Student Percentage&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Agency Code" selected="True" rename="District ID" type="String" size="11" />
+            <SelectField field="School District Name" selected="True" rename="District Name" />
+            <SelectField field="Site ID" selected="True" rename="School ID" type="String" size="5" />
+            <SelectField field="School Name" selected="True" type="String" size="40" />
+            <SelectField field="Program" selected="False" />
+            <SelectField field="Date Claim (Month)" selected="True" rename="Claim Date" />
+            <SelectField field="Enrollment" selected="True" rename="Enrollment-Total" type="Int32" size="4" />
+            <SelectField field="Number Operating Days of Service" selected="True" />
+            <SelectField field="Free Eligible Enrollment" selected="True" rename="Enrollment-Free" type="Int32" size="4" />
+            <SelectField field="Reduced Price Eligible Enrollment" selected="True" rename="Enrollment-Reduced" type="Int32" size="4" />
+            <SelectField field="Total Free Lunch Served" selected="True" rename="Lunch Meals-Free" type="Int32" size="4" />
+            <SelectField field="Total Reduced Price Lunch Served" selected="True" rename="Lunch Meals-Reduced" type="Int32" size="4" />
+            <SelectField field="Total Paid Lunch Served" selected="True" rename="Lunch Meals-Paid" type="Int32" size="4" />
+            <SelectField field="Type of School" selected="True" rename="School Level-Original" type="String" size="23" />
+            <SelectField field="School Street Address" selected="True" type="String" size="37" />
+            <SelectField field="City" selected="True" type="String" size="17" />
+            <SelectField field="Zip" selected="True" rename="Zip Code" type="String" size="11" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="Public (Y/N)" selected="True" />
+            <SelectField field="Provision 2" selected="True" />
+            <SelectField field="CEP Participation" selected="True" rename="CEP(Y/N)" />
+            <SelectField field="Identified Student Percentage" selected="True" rename="ISP" type="FixedDecimal" size="19.6" />
+            <SelectField field="Unique ID" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="714" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Enrollment-Total]-[Enrollment-Free]-[Enrollment-Reduced]" field="Enrollment-Paid" size="4" type="Int32" />
+            <FormulaField expression="IF [Public (Y/N)]==&quot;Yes&quot; and [School Level-Original] != &quot;RCCI&quot;&#xA;Then &quot;Public&quot;&#xA;Elseif [Public (Y/N)]==&quot;NO&quot; and [School Level-Original] != &quot;RCCI&quot;&#xA;Then &quot;Nonpublic&quot;&#xA;Elseif [Public (Y/N)]==&quot;YES&quot; and [School Level-Original] != &quot;RCCI&quot;&#xA;Then &quot;Public RCCI&quot;&#xA;Elseif [Public (Y/N)]==&quot;NO&quot; and [School Level-Original] != &quot;RCCI&quot;&#xA;Then &quot;Nonpublic RCCI&quot;&#xA;ELSE 0&#xA;ENDIF" field="School Type-Orignial" size="10" type="String" />
+            <FormulaField expression="[District ID]+[School ID]+[Claim Date]" field="District ID_School ID_Date" size="64" type="String" />
+            <FormulaField expression="IF(Length([District ID]) &lt; 6)&#xA;THEN&#xA;PadLeft(tostring([District ID]), 6, &quot;0&quot;)&#xA;ELSE&#xA;[District ID]&#xA;ENDIF&#xA;" field="District ID" size="11" type="String" />
+            <FormulaField expression="IF(Length([School ID]) &lt; 4)&#xA;THEN&#xA;PadLeft(tostring([School ID]), 4, &quot;0&quot;)&#xA;ELSE&#xA;[School ID]&#xA;ENDIF&#xA;" field="School ID" size="5" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Enrollment-Paid = [Enrollment-Total]-[Enrollment-Free]-[Enrollment-Reduced]
+Scho...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="954" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Admin\AppData\Local\Temp\Engine_5708_b7ff4645b13e41f2a6afddf555d16972_\Engine_15984_bbc9416fca8c49daa2a06f3b702a8ce7_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="150" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"AGENCY_CODE","AGENCY_NAME","DPI_SITE_CODE","SCHOOL_NAME","PROGRAM","DATE_CLAIM","CEP_PARTICIPATION","ENROLLMENT","DAYS_OPERATING","FOOD_FREE","FOOD_REDUCED_PRICED","FOOD_FULL_PRICE","TRADITIONAL_MODEL","MID_MORNING_MODEL","CLASSROOM_MODEL","REDUCED_PRICE_MODEL","GRAB_N_GO_MODEL","FREE_MODEL"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="150" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Unique ID","Agency Code","School District Name","Site ID","School Name","Program","Date Claim (Month)","Enrollment","Number Operating Days of Service","Free Eligible Enrollment","Reduced Price Eligible Enrollment","Total Free Lunch Served","Total Reduced Price Lunch Served","Total Paid Lunch Served","Type of School","School Street Address","City","Zip","County","Public (Y/N)","Provision 2","CEP Participation","Identified Student Percentage"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="810" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Claim Date" selected="False" />
+            <SelectField field="Claim Date 2" selected="True" rename="Claim Date" />
+            <SelectField field="Enrollment-Total" selected="True" />
+            <SelectField field="Number Operating Days of Service" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="School Street Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="Public (Y/N)" selected="True" />
+            <SelectField field="Provision 2" selected="True" />
+            <SelectField field="CEP(Y/N)" selected="True" />
+            <SelectField field="ISP" selected="True" />
+            <SelectField field="Claim Date 1" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="School Type-Orignial" selected="True" />
+            <SelectField field="District ID_School ID_Date" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="870" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Claim Date" selected="False" />
+            <SelectField field="Claim Date 2" selected="True" rename="Claim Date" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Enrollment-Total" selected="True" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="TRADITIONAL_MODEL" selected="False" />
+            <SelectField field="MID_MORNING_MODEL" selected="False" />
+            <SelectField field="CLASSROOM_MODEL" selected="False" />
+            <SelectField field="REDUCED_PRICE_MODEL" selected="False" />
+            <SelectField field="GRAB_N_GO_MODEL" selected="False" />
+            <SelectField field="FREE_MODEL" selected="False" />
+            <SelectField field="Claim Date 1" selected="True" />
+            <SelectField field="TEST1" selected="False" />
+            <SelectField field="TEST2" selected="False" />
+            <SelectField field="TEST3" selected="False" />
+            <SelectField field="TEST4" selected="False" />
+            <SelectField field="TEST5" selected="False" />
+            <SelectField field="TEST6" selected="False" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="District ID_School ID_Date" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2574" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="8">C:\Users\Admin\Desktop\ShareOurStrength-master\Alteryx Clean Data\Clean Data-Wisconsin.xls|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PostSQL />
+            <PreSQL />
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Clean Data-Wisconsin.xls
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="1230" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="District ID_School ID_Date" />
+              <Field field="Claim Date 1" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="District ID_School ID_Date" />
+              <Field field="Claim Date 1" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Allow</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_District ID" selected="True" />
+                <SelectField field="Input_#1_District Name" selected="True" />
+                <SelectField field="Input_#1_School ID" selected="True" />
+                <SelectField field="Input_#1_School Name" selected="True" />
+                <SelectField field="Input_#1_Claim Date" selected="True" />
+                <SelectField field="Input_#1_Enrollment-Total" selected="True" />
+                <SelectField field="Input_#1_Number Operating Days of Service" selected="True" />
+                <SelectField field="Input_#1_Enrollment-Free" selected="True" />
+                <SelectField field="Input_#1_Enrollment-Reduced" selected="True" />
+                <SelectField field="Input_#1_Lunch Meals-Free" selected="True" />
+                <SelectField field="Input_#1_Lunch Meals-Reduced" selected="True" />
+                <SelectField field="Input_#1_Lunch Meals-Paid" selected="True" />
+                <SelectField field="Input_#1_School Level-Original" selected="True" />
+                <SelectField field="Input_#1_School Street Address" selected="True" />
+                <SelectField field="Input_#1_City" selected="True" />
+                <SelectField field="Input_#1_Zip Code" selected="True" />
+                <SelectField field="Input_#1_County" selected="True" />
+                <SelectField field="Input_#1_Provision 2" selected="True" />
+                <SelectField field="Input_#1_CEP(Y/N)" selected="True" />
+                <SelectField field="Input_#1_ISP" selected="True" />
+                <SelectField field="Input_#1_Claim Date 1" selected="True" />
+                <SelectField field="Input_#1_Enrollment-Paid" selected="True" />
+                <SelectField field="Input_#1_School Type-Orignial" selected="True" />
+                <SelectField field="Input_#2_District ID" selected="False" rename="Input_#2_District ID" />
+                <SelectField field="Input_#2_District Name" selected="False" rename="Input_#2_District Name" />
+                <SelectField field="Input_#2_School ID" selected="False" rename="Input_#2_School ID" />
+                <SelectField field="Input_#2_School Name" selected="False" rename="Input_#2_School Name" />
+                <SelectField field="Input_#2_Claim Date" selected="False" rename="Input_#2_Claim Date" />
+                <SelectField field="Input_#2_CEP (Y/N)" selected="True" />
+                <SelectField field="Input_#2_Enrollment-Total" selected="True" rename="Input_#2_Enrollment-Total" />
+                <SelectField field="Input_#2_Operating Days-Breakfast Only" selected="True" />
+                <SelectField field="Input_#2_Breakfast Meals-Free" selected="True" />
+                <SelectField field="Input_#2_Breakfast Meals-Reduced" selected="True" />
+                <SelectField field="Input_#2_Breakfast Meals-Paid" selected="True" />
+                <SelectField field="Input_#2_Claim Date 1" selected="True" rename="Input_#2_Claim Date 1" />
+                <SelectField field="Input_#2_Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1326" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Admin\AppData\Local\Temp\Engine_5708_b7ff4645b13e41f2a6afddf555d16972_\Engine_15984_9b721c0948f04fb8bcd6f8cae39f5ed1_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1350" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="Enrollment-Total" selected="True" />
+            <SelectField field="Number Operating Days of Service" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="School Street Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="Provision 2" selected="True" />
+            <SelectField field="CEP(Y/N)" selected="True" />
+            <SelectField field="ISP" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="School Type-Orignial" selected="True" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="Input_#2_Claim Date 1" selected="False" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="Claim Date 1" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1218" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>WI NCES School Data, SY15-16.xlsx
+Query=`WI NCES School Data, SY15-1...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="School Name" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="State Name [Public School] Latest available year" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="State Name [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="State Abbr [Public School] Latest available year" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="School Name [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="School ID - NCES Assigned [Public School] Latest available year" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Agency Name [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Agency ID - NCES Assigned [Public School] Latest available year" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="County Name [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="County Number [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="ANSI/FIPS State Code [Public School] Latest available year" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Web Site URL [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Years School Reported Data [Public School] Latest available year" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Years School Did Not Report Data [Public School] Latest available year" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Location Address 1 [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Location Address 2 [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Location Address 3 [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Location City [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Location State Abbr [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Location ZIP [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Location ZIP4 [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Mailing Address 1 [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Mailing Address 2 [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Mailing Address 3 [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Mailing City [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Mailing State Abbr [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Mailing ZIP [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Mailing ZIP4 [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Phone Number [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Out of State Flag [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="School Type [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Agency Type [District] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Start of Year Status [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Updated Status [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Effective Date of Updated Status [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Charter School [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Magnet School [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Shared Time School [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Urban-centric Locale [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="School-wide Title I [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Title I Eligible School [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Title I School Status [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="CBSA Name [District] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="CBSA ID [District] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="CSA Name [District] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="CSA ID [District] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Latitude [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Longitude [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="State School ID [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="State Agency ID [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Congressional Code [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Reconstituted flag [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Virtual School Status [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="National School Lunch Program [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Charter Authorizer Name Primary [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Charter Authorizer Name Secondary [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Supervisory Union (ID) Number [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="School Level Code [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Lowest Grade Offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Highest Grade Offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Prekindergarten offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Kindergarten offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 1 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 2 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 3 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 4 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 5 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 6 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 7 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 8 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 9 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 10 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 11 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 12 offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Grade 13 Offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Ungraded offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Adult Education Offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="No Grades Offered [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+            <Field name="Total Students, All Grades (Excludes AE) [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Total Students, All Grades (Includes AE) [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Free Lunch Eligible [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Reduced-price Lunch Eligible Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Free and Reduced Lunch Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grades 1-8 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grades 9-12 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Prekindergarten Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Kindergarten Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 1 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 2 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 3 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 4 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 5 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 6 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 7 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 8 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 9 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 10 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 11 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 12 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Grade 13 Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Ungraded Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Adult Education Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Male Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Female Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="American Indian/Alaska Native Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Asian or Asian/Pacific Islander Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Hispanic Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Black Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="White Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Hawaiian Nat./Pacific Isl. Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Two or More Races Students [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Total Race/Ethnicity [Public School] 2015-16" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="Double" />
+            <Field name="Full-Time Equivalent (FTE) Teachers [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="Pupil/Teacher Ratio [Public School] 2015-16" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_WString" />
+            <Field name="ncesid" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\Wisconsin WI\Raw Data\WI NCES School Data, SY15-16.xlsx|||`WI NCES School Data, SY15-16$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1338" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Admin\AppData\Local\Temp\Engine_5708_b7ff4645b13e41f2a6afddf555d16972_\Engine_15984_6c4de047d48249f4a41506dbb8621893_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings>
+        <Position x="1374" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"School Name","State Name [Public School] Latest available year","State Name [Public School] 2015-16","State Abbr [Public School] Latest available year","School Name [Public School] 2015-16","School ID - NCES Assigned [Public School] Latest available year","Agency Name [Public School] 2015-16","Agency ID - NCES Assigned [Public School] Latest available year","County Name [Public School] 2015-16","County Number [Public School] 2015-16","ANSI/FIPS State Code [Public School] Latest available year","Web Site URL [Public School] 2015-16","Years School Reported Data [Public School] Latest available year","Years School Did Not Report Data [Public School] Latest available year","Location Address 1 [Public School] 2015-16","Location Address 2 [Public School] 2015-16","Location Address 3 [Public School] 2015-16","Location City [Public School] 2015-16","Location State Abbr [Public School] 2015-16","Location ZIP [Public School] 2015-16","Location ZIP4 [Public School] 2015-16","Mailing Address 1 [Public School] 2015-16","Mailing Address 2 [Public School] 2015-16","Mailing Address 3 [Public School] 2015-16","Mailing City [Public School] 2015-16","Mailing State Abbr [Public School] 2015-16","Mailing ZIP [Public School] 2015-16","Mailing ZIP4 [Public School] 2015-16","Phone Number [Public School] 2015-16","Out of State Flag [Public School] 2015-16","School Type [Public School] 2015-16","Agency Type [District] 2015-16","Start of Year Status [Public School] 2015-16","Updated Status [Public School] 2015-16","Effective Date of Updated Status [Public School] 2015-16","Charter School [Public School] 2015-16","Magnet School [Public School] 2015-16","Shared Time School [Public School] 2015-16","Urban-centric Locale [Public School] 2015-16","School-wide Title I [Public School] 2015-16","Title I Eligible School [Public School] 2015-16","Title I School Status [Public School] 2015-16","CBSA Name [District] 2015-16","CBSA ID [District] 2015-16","CSA Name [District] 2015-16","CSA ID [District] 2015-16","Latitude [Public School] 2015-16","Longitude [Public School] 2015-16","State School ID [Public School] 2015-16","State Agency ID [Public School] 2015-16","Congressional Code [Public School] 2015-16","Reconstituted flag [Public School] 2015-16","Virtual School Status [Public School] 2015-16","National School Lunch Program [Public School] 2015-16","Charter Authorizer Name Primary [Public School] 2015-16","Charter Authorizer Name Secondary [Public School] 2015-16","Supervisory Union (ID) Number [Public School] 2015-16","School Level Code [Public School] 2015-16","Lowest Grade Offered [Public School] 2015-16","Highest Grade Offered [Public School] 2015-16","Prekindergarten offered [Public School] 2015-16","Kindergarten offered [Public School] 2015-16","Grade 1 offered [Public School] 2015-16","Grade 2 offered [Public School] 2015-16","Grade 3 offered [Public School] 2015-16","Grade 4 offered [Public School] 2015-16","Grade 5 offered [Public School] 2015-16","Grade 6 offered [Public School] 2015-16","Grade 7 offered [Public School] 2015-16","Grade 8 offered [Public School] 2015-16","Grade 9 offered [Public School] 2015-16","Grade 10 offered [Public School] 2015-16","Grade 11 offered [Public School] 2015-16","Grade 12 offered [Public School] 2015-16","Grade 13 Offered [Public School] 2015-16","Ungraded offered [Public School] 2015-16","Adult Education Offered [Public School] 2015-16","No Grades Offered [Public School] 2015-16","Total Students, All Grades (Excludes AE) [Public School] 2015-16","Total Students, All Grades (Includes AE) [Public School] 2015-16","Free Lunch Eligible [Public School] 2015-16","Reduced-price Lunch Eligible Students [Public School] 2015-16","Free and Reduced Lunch Students [Public School] 2015-16","Grades 1-8 Students [Public School] 2015-16","Grades 9-12 Students [Public School] 2015-16","Prekindergarten Students [Public School] 2015-16","Kindergarten Students [Public School] 2015-16","Grade 1 Students [Public School] 2015-16","Grade 2 Students [Public School] 2015-16","Grade 3 Students [Public School] 2015-16","Grade 4 Students [Public School] 2015-16","Grade 5 Students [Public School] 2015-16","Grade 6 Students [Public School] 2015-16","Grade 7 Students [Public School] 2015-16","Grade 8 Students [Public School] 2015-16","Grade 9 Students [Public School] 2015-16","Grade 10 Students [Public School] 2015-16","Grade 11 Students [Public School] 2015-16","Grade 12 Students [Public School] 2015-16","Grade 13 Students [Public School] 2015-16","Ungraded Students [Public School] 2015-16","Adult Education Students [Public School] 2015-16","Male Students [Public School] 2015-16","Female Students [Public School] 2015-16","American Indian/Alaska Native Students [Public School] 2015-16","Asian or Asian/Pacific Islander Students [Public School] 2015-16","Hispanic Students [Public School] 2015-16","Black Students [Public School] 2015-16","White Students [Public School] 2015-16","Hawaiian Nat./Pacific Isl. Students [Public School] 2015-16","Two or More Races Students [Public School] 2015-16","Total Race/Ethnicity [Public School] 2015-16","Full-Time Equivalent (FTE) Teachers [Public School] 2015-16","Pupil/Teacher Ratio [Public School] 2015-16","ncesid"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1482" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="School Name [Public School] 2015-16" selected="True" />
+            <SelectField field="School ID - NCES Assigned [Public School] Latest available year" selected="True" />
+            <SelectField field="Agency Name [Public School] 2015-16" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1446" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="District Name" />
+            <Field field="School Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Agency Name [Public School] 2015-16" />
+            <Field field="School Name [Public School] 2015-16" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1614" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="School Name [Public School] 2015-16" selected="False" />
+            <SelectField field="School ID - NCES Assigned [Public School] Latest available year" selected="True" rename="NCES ID" />
+            <SelectField field="Agency Name [Public School] 2015-16" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="426" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Claim Date</InputFieldName>
+          <Format>dd-Mon-yy</Format>
+          <OutputFieldName>Claim Date 1</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Claim Date From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="522" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>Claim Date 1</InputFieldName>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Claim Date 2</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Claim Date 1 To:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="522" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Claim Date</InputFieldName>
+          <Format>dd-Mon-yy</Format>
+          <OutputFieldName>Claim Date 1</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Claim Date From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="618" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>Claim Date 1</InputFieldName>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Claim Date 2</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Claim Date 1 To:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1686" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Null()" field="State-Physical" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Street Address-Line 2" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Provision 1 (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Provision 3 (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Universal Free (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeFormat([Claim Date 1],&quot;%m&quot;)" field="Claim Month" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeFormat([Claim Date 1],&quot;%Y&quot;)" field="Claim Year" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Enrollment-Paid" size="4" type="Int32" />
+            <FormulaField expression="Null()" field="Enrollment-Free and Reduced" size="8" type="Double" />
+            <FormulaField expression="Null()" field="Lunch Meals-Free and Reduced" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Meals-Free and Reduced" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Operating Days" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Campaign Tracking Data-Original" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Other Source-Original" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Other Source, Note Source Here" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date from Campaign Tracking Data" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date from Other Source" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date from State Agency Tracking" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date Other Source, Note Source Here" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;WI&quot;" field="State-Reporting" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF ISNULL([Lunch Meals-Free]) AND ISNULL([Lunch Meals-Reduced]) &#xA;THEN&#xA;[Lunch Meals-Free and Reduced]&#xA;ELSE&#xA;[Lunch Meals-Free] + [Lunch Meals-Reduced]&#xA;ENDIF&#xA;" field="FR Lunch Meals" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF&#xA;ISNULL([Breakfast Meals-Free]) AND ISNULL([Breakfast Meals-Reduced]) THEN NULL()&#xA;ELSEIF&#xA;ISNULL([Breakfast Meals-Free]) AND NOT ISNULL([Breakfast Meals-Reduced]) THEN [Breakfast Meals-Reduced]&#xA;ELSEIF&#xA;ISNULL([Breakfast Meals-Reduced]) AND NOT ISNULL([Breakfast Meals-Free]) THEN [Breakfast Meals-Free]&#xA;ELSE&#xA;[Breakfast Meals-Free] + [Breakfast Meals-Reduced]&#xA;ENDIF&#xA;" field="FR Breakfast Meals" size="1073741823" type="V_WString" />
+            <FormulaField expression="[State-Reporting]+&quot;@&quot;+&#xA;([School ID])+&quot;@&quot;+&#xA;([District ID])&#xA;" field="Unique ID" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;SY18-19&quot;" field="School Year" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Target Area" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF ISNULL([Enrollment-Free and Reduced])&#xA;THEN &#xA;	IF ISNULL([Enrollment-Free]) AND 		           ISNULL([Enrollment-Reduced])&#xA;    THEN NULL()&#xA;    ELSE&#xA;    [Enrollment-Free]+[Enrollment-Reduced]&#xA;    ENDIF&#xA;ELSE &#xA;[Enrollment-Free and Reduced]&#xA;ENDIF&#xA;" field="FR Enrollment" size="8" type="Double" />
+            <FormulaField expression="[School Level-Original]" field="School Level-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="[School Type-Orignial]" field="School Type-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="null()" field="Breakfast Delivery Model from Grants Data-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Innovations Data-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Breakfast Delivery Model from Campaign Tracking Data-Original]" field="Breakfast Delivery Model from Campaign Tracking Data-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Breakfast Delivery Model from State Agency Tracking-Original]" field="Breakfast Delivery Model from State Agency Tracking-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Breakfast Delivery Model from Other Source-Original]" field="Breakfast Delivery Model from Other Source-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date from Grants Data" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [School Type-Standardized]==&quot;Public RCCI&quot; THEN &quot;Other&quot;&#xA;ELSE [School Type-Standardized]&#xA;ENDIF" field="School Type-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="Replace([School Level-Standardized], &quot;0&quot;, &quot;Unknown&quot;)" field="School Level-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF([CEP (Y/N)] = &quot;N&quot;) THEN&#xA;&#xA;  [FR Enrollment] / [Enrollment-Total]&#xA;&#xA;ELSEIF ([CEP (Y/N)] = &quot;Y&quot;) THEN&#xA;&#xA;  [Lunch Meals-Free] / ([Lunch Meals-Free] + [Lunch Meals-Paid])&#xA;&#xA;Else&#xA;Null()&#xA;ENDIF&#xA;" field="FR Enrollment Percentage" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>State-Physical = Null()
+Street Address-Line 2 = Null()
+Provision 1 (Y/N) = Null(...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1782" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Universal Free (Y/N)" selected="True" />
+            <SelectField field="Unique ID" selected="True" />
+            <SelectField field="Target Area" selected="True" />
+            <SelectField field="Street Address-Line 2" selected="True" />
+            <SelectField field="State-Reporting" selected="True" />
+            <SelectField field="State-Physical" selected="True" />
+            <SelectField field="School Year" selected="True" />
+            <SelectField field="School Type-Standardized" selected="True" />
+            <SelectField field="School Type-Orignial" selected="True" />
+            <SelectField field="School Street Address" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="School Level-Standardized" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="Provision 3 (Y/N)" selected="True" />
+            <SelectField field="Provision 2" selected="True" />
+            <SelectField field="Provision 1 (Y/N)" selected="True" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="Operating Days" selected="True" />
+            <SelectField field="Number Operating Days of Service" selected="True" />
+            <SelectField field="NCES ID" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Lunch Meals-Free and Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="ISP" selected="True" />
+            <SelectField field="FR Lunch Meals" selected="True" />
+            <SelectField field="FR Enrollment Percentage" selected="True" />
+            <SelectField field="FR Enrollment" selected="True" />
+            <SelectField field="FR Breakfast Meals" selected="True" />
+            <SelectField field="Enrollment-Total" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="Enrollment-Free and Reduced" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="Claim Year" selected="True" />
+            <SelectField field="Claim Month" selected="True" />
+            <SelectField field="Claim Date 1" selected="False" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="CEP(Y/N)" selected="True" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="Breakfast Meals-Free and Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source-Original" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source, Note Source Here" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Innovations Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Grants Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Campaign Tracking Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Campaign Tracking Data-Original" selected="True" />
+            <SelectField field="BAB Implementation Date Other Source, Note Source Here" selected="True" />
+            <SelectField field="BAB Implementation Date from State Agency Tracking" selected="True" />
+            <SelectField field="BAB Implementation Date from Other Source" selected="True" />
+            <SelectField field="BAB Implementation Date from Grants Data" selected="True" />
+            <SelectField field="BAB Implementation Date from Campaign Tracking Data" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1794" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data standardization guidance.xlsx
+Query=`School Type$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="School Type-Original" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`" type="V_WString" />
+            <Field name="School Type-Standardized" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`" type="V_String" />
+            <Field name="F4" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1902" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>School Type-Orignial</FieldFind>
+          <FieldSearch>School Type-Original</FieldSearch>
+          <ReplaceFoundField>School Type-Standardized</ReplaceFoundField>
+          <FindMode>FindWhole</FindMode>
+          <NoCase value="True" />
+          <MatchWholeWord value="True" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="School Type-Standardized" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="2034" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>School Level-Original</FieldFind>
+          <FieldSearch>School Level Original</FieldSearch>
+          <ReplaceFoundField>School Level Standardized</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="True" />
+          <MatchWholeWord value="True" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="School Level Standardized" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1950" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`Archive - Old School Level$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data standardization guidance.xlsx
+Query=`Archive - Old School Level$...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="School Level Original" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`Archive - Old School Level$`" type="V_String" />
+            <Field name="School Level Standardized" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`Archive - Old School Level$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2106" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Enrollment-Total" selected="True" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="Provision 2" selected="True" rename="Provision 2 (Y/N)" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="School Type-Orignial" selected="True" rename="School Type-Original" />
+            <SelectField field="BAB Implementation Date from Grants Data" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Campaign Tracking Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Innovations Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Grants Data-Standardized" selected="True" />
+            <SelectField field="School Type-Standardized2" selected="True" rename="School-Type-Standardized" />
+            <SelectField field="School Level Standardized" selected="True" rename="School Level-Standardized" />
+            <SelectField field="FR Enrollment Percentage" selected="True" />
+            <SelectField field="FR Enrollment" selected="True" />
+            <SelectField field="Target Area" selected="True" />
+            <SelectField field="School Year" selected="True" />
+            <SelectField field="Unique ID" selected="True" />
+            <SelectField field="FR Breakfast Meals" selected="True" type="Int16" size="2" />
+            <SelectField field="FR Lunch Meals" selected="True" type="Int16" size="2" />
+            <SelectField field="State-Reporting" selected="True" />
+            <SelectField field="BAB Implementation Date Other Source, Note Source Here" selected="True" />
+            <SelectField field="BAB Implementation Date from State Agency Tracking" selected="True" />
+            <SelectField field="BAB Implementation Date from Other Source" selected="True" />
+            <SelectField field="BAB Implementation Date from Campaign Tracking Data" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source, Note Source Here" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source-Original" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Campaign Tracking Data-Original" selected="True" />
+            <SelectField field="Operating Days" selected="True" type="Int32" size="4" />
+            <SelectField field="Breakfast Meals-Free and Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Free and Reduced" selected="True" />
+            <SelectField field="Enrollment-Free and Reduced" selected="True" />
+            <SelectField field="Claim Year" selected="True" />
+            <SelectField field="Claim Month" selected="True" />
+            <SelectField field="Universal Free (Y/N)" selected="True" />
+            <SelectField field="Provision 3 (Y/N)" selected="True" />
+            <SelectField field="Provision 1 (Y/N)" selected="True" />
+            <SelectField field="Street Address-Line 2" selected="True" />
+            <SelectField field="State-Physical" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="NCES ID" selected="True" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="Number Operating Days of Service" selected="True" rename="Operating Days-Lunch Only" type="FixedDecimal" size="3.0" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="School Street Address" selected="True" rename="Street Address-Line 1" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="ISP" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="School Level-Standardized" selected="False" />
+            <SelectField field="CEP(Y/N)" selected="False" />
+            <SelectField field="School Type-Standardized" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2190" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ISNULL([Operating Days-Lunch Only]) AND ISNULL([Operating Days]) &#xA;THEN ToNumber(18.5)&#xA;ELSEIF ISNULL([Operating Days-Lunch Only]) AND NOT ISNULL([Operating Days]) &#xA;THEN [Operating Days]&#xA;ELSE [Operating Days-Lunch Only]&#xA;ENDIF" field="Operating Days-Lunch Only" size="3.0" type="FixedDecimal" />
+            <FormulaField expression="IF ISNULL([FR Lunch Meals]) THEN NULL()&#xA;&#xA;ELSEIF ISNULL([Operating Days-Lunch Only]) AND ISNULL([Operating Days]) THEN NULL()&#xA;&#xA;ELSE&#xA; IF ISNULL([Operating Days-Lunch Only]) AND NOT ISNULL([Operating Days]) THEN &#xA;&#xA;  [FR Lunch Meals] /[Operating Days] &#xA; ELSE&#xA;  [FR Lunch Meals]/[Operating Days-Lunch Only]&#xA;  ENDIF&#xA;&#xA;ENDIF&#xA;" field="FR Lunch ADP" size="19.6" type="FixedDecimal" />
+            <FormulaField expression="&#xA;IF ISNULL([FR Breakfast Meals]) THEN NULL()&#xA;&#xA;ELSEIF ISNULL([Operating Days-Breakfast Only]) AND ISNULL([Operating Days]) THEN NULL()&#xA;&#xA;ELSE&#xA; IF ISNULL([Operating Days-Breakfast Only]) AND NOT ISNULL([Operating Days]) THEN &#xA;  [FR Breakfast Meals] /[Operating Days] &#xA; ELSE&#xA;  [FR Breakfast Meals]/[Operating Days-Breakfast Only]&#xA;  ENDIF&#xA;&#xA;ENDIF&#xA;" field="FR Breakfast ADP" size="19.6" type="FixedDecimal" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Operating Days-Lunch Only = IF ISNULL([Operating Days-Lunch Only]) AND ISNULL([O...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="2334" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Breakfast Delivery Model from State Agency Tracking-Standardized</FieldFind>
+          <FieldSearch>Breakfast Delivery Model Original</FieldSearch>
+          <ReplaceFoundField>Breakfast Delivery Model Standardized</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="True" />
+          <MatchWholeWord value="True" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="Breakfast Delivery Model Standardized" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="2238" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance 2.xlsx|||`Breakfast Delivery Model$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data standardization guidance 2.xlsx
+Query=`Breakfast Delivery Model$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Breakfast Delivery Model Original" size="320" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance 2.xlsx|||`Breakfast Delivery Model$`" type="V_String" />
+            <Field name="Breakfast Delivery Model Standardized" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance 2.xlsx|||`Breakfast Delivery Model$`" type="V_String" />
+            <Field name="Notes" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance 2.xlsx|||`Breakfast Delivery Model$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2442" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Enrollment-Total" selected="True" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="Provision 2 (Y/N)" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="School Type-Original" selected="True" />
+            <SelectField field="BAB Implementation Date from Grants Data" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Standardized" selected="False" />
+            <SelectField field="Breakfast Delivery Model Standardized" selected="True" rename="Breakfast Delivery Model from State Agency Tracking-Standardized" />
+            <SelectField field="Breakfast Delivery Model from Campaign Tracking Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Innovations Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Grants Data-Standardized" selected="True" />
+            <SelectField field="School-Type-Standardized" selected="True" />
+            <SelectField field="School Level-Standardized" selected="True" />
+            <SelectField field="FR Enrollment Percentage" selected="True" />
+            <SelectField field="FR Enrollment" selected="True" />
+            <SelectField field="Target Area" selected="True" />
+            <SelectField field="School Year" selected="True" />
+            <SelectField field="Unique ID" selected="True" />
+            <SelectField field="FR Breakfast ADP" selected="True" />
+            <SelectField field="FR Breakfast Meals" selected="True" />
+            <SelectField field="FR Lunch ADP" selected="True" />
+            <SelectField field="FR Lunch Meals" selected="True" />
+            <SelectField field="State-Reporting" selected="True" />
+            <SelectField field="BAB Implementation Date Other Source, Note Source Here" selected="True" />
+            <SelectField field="BAB Implementation Date from State Agency Tracking" selected="True" />
+            <SelectField field="BAB Implementation Date from Other Source" selected="True" />
+            <SelectField field="BAB Implementation Date from Campaign Tracking Data" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source, Note Source Here" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source-Original" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Campaign Tracking Data-Original" selected="True" />
+            <SelectField field="Operating Days" selected="True" />
+            <SelectField field="Breakfast Meals-Free and Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Free and Reduced" selected="True" />
+            <SelectField field="Enrollment-Free and Reduced" selected="True" />
+            <SelectField field="Claim Year" selected="True" />
+            <SelectField field="Claim Month" selected="True" />
+            <SelectField field="Universal Free (Y/N)" selected="True" />
+            <SelectField field="Provision 3 (Y/N)" selected="True" />
+            <SelectField field="Provision 1 (Y/N)" selected="True" />
+            <SelectField field="Street Address-Line 2" selected="True" />
+            <SelectField field="State-Physical" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="NCES ID" selected="True" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="Operating Days-Lunch Only" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="ISP" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1530" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="22" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="23" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output26" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output26" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="40" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="40" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output26" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="40" Connection="Left" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="51" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="53" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="53" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="58" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="58" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>S1</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>S2</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>S3</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>S4</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>S5</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>User</Namespace>
+        <Name>S6</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Wisconsin Alteryx Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
