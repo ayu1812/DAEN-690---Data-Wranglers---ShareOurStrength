@@ -1,0 +1,1906 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SR - Public Records Request No 19-487.xlsx
+Query=`Lunch Meal Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Claim Month" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="V_String" />
+            <Field name="Sponsor Id" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="Double" />
+            <Field name="Sponsor Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="V_String" />
+            <Field name="Site ID" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="Double" />
+            <Field name="Site Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="V_String" />
+            <Field name="Lunch Operating Days" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="Double" />
+            <Field name="Free Meal Count" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="Double" />
+            <Field name="Reduced Meal Count" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="Double" />
+            <Field name="Paid Meal Count" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="Double" />
+            <Field name="Total Meal" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Lunch Meal Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="126" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ayush\AppData\Local\Temp\Engine_23276_0a73060318794103815f11464c73422e_\Engine_16928_cd03674b02b44fd3bd3de826dd5b304b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Claim Month" selected="True" rename="Claim Date" />
+            <SelectField field="Sponsor Id" selected="True" rename="District ID" type="String" size="19" />
+            <SelectField field="Sponsor Name" selected="True" rename="District Name" />
+            <SelectField field="Site ID" selected="True" rename="School ID" type="String" size="19" />
+            <SelectField field="Site Name" selected="True" rename="School Name" />
+            <SelectField field="Lunch Operating Days" selected="True" rename="Operating Daya-Lunch Only" />
+            <SelectField field="Free Meal Count" selected="True" rename="Lunch Meals-Free" />
+            <SelectField field="Reduced Meal Count" selected="True" rename="Lunch Meals-Reduced" />
+            <SelectField field="Paid Meal Count" selected="True" rename="Lunch Meals-Paid" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SR - Public Records Request No 19-487.xlsx
+Query=`Breakfast Meal Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Claim Month" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="V_String" />
+            <Field name="Sponsor Id" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="Double" />
+            <Field name="Sponsor Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="V_String" />
+            <Field name="Site ID" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="Double" />
+            <Field name="Site Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="V_String" />
+            <Field name="Breakfast Operating Days" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="Double" />
+            <Field name="Free Meal Count" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="Double" />
+            <Field name="Reduced Meal Count" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="Double" />
+            <Field name="Paid Meal Count" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="Double" />
+            <Field name="Total Meal" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Meal Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Claim Month" selected="True" rename="Claim Date" />
+            <SelectField field="Sponsor Id" selected="True" rename="District ID" type="String" size="19" />
+            <SelectField field="Sponsor Name" selected="True" rename="District Name" />
+            <SelectField field="Site ID" selected="True" rename="School ID" type="String" size="19" />
+            <SelectField field="Site Name" selected="True" rename="School Name" />
+            <SelectField field="Breakfast Operating Days" selected="True" rename="Operating Days Breakfast-Only" />
+            <SelectField field="Free Meal Count" selected="True" rename="Breakfast Meals-Free" />
+            <SelectField field="Reduced Meal Count" selected="True" rename="Breakfast Meals-Reduced" />
+            <SelectField field="Paid Meal Count" selected="True" rename="Breakfast Meals-Paid" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="354" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="District ID" />
+              <Field field="School ID" />
+              <Field field="Claim Date" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="District ID" />
+              <Field field="School ID" />
+              <Field field="Claim Date" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_Claim Date" selected="True" />
+                <SelectField field="Input_#1_District ID" selected="True" />
+                <SelectField field="Input_#1_District Name" selected="True" />
+                <SelectField field="Input_#1_School ID" selected="True" />
+                <SelectField field="Input_#1_School Name" selected="True" />
+                <SelectField field="Input_#1_Operating Daya-Lunch Only" selected="True" />
+                <SelectField field="Input_#1_Lunch Meals-Free" selected="True" />
+                <SelectField field="Input_#1_Lunch Meals-Reduced" selected="True" />
+                <SelectField field="Input_#1_Lunch Meals-Paid" selected="True" />
+                <SelectField field="Input_#2_Claim Date" selected="True" rename="Input_#2_Claim Date" />
+                <SelectField field="Input_#2_District ID" selected="True" rename="Input_#2_District ID" />
+                <SelectField field="Input_#2_District Name" selected="True" rename="Input_#2_District Name" />
+                <SelectField field="Input_#2_School ID" selected="True" rename="Input_#2_School ID" />
+                <SelectField field="Input_#2_School Name" selected="True" rename="Input_#2_School Name" />
+                <SelectField field="Input_#2_Operating Days Breakfast-Only" selected="True" />
+                <SelectField field="Input_#2_Breakfast Meals-Free" selected="True" />
+                <SelectField field="Input_#2_Breakfast Meals-Reduced" selected="True" />
+                <SelectField field="Input_#2_Breakfast Meals-Paid" selected="True" />
+                <SelectField field="Input_#2_Total Meal" selected="False" rename="Input_#2_Total Meal" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ayush\AppData\Local\Temp\Engine_23276_0a73060318794103815f11464c73422e_\Engine_16928_899c49a3ef37406aa14f7dbd327ab49e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="450" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [School ID]!=&quot;NULL&quot; THEN [School ID]&#xA;ELSE&#xA;([School ID]+[Input_#2_School ID])&#xA;ENDIF" field="School ID" size="19" type="String" />
+            <FormulaField expression="IF [Claim Date]!=&quot;NULL&quot; THEN [Claim Date]&#xA;ELSE&#xA;([Claim Date]+[Input_#2_Claim Date])&#xA;ENDIF" field="Claim Date" size="255" type="V_String" />
+            <FormulaField expression="IF [District Name]!=&quot;NULL&quot; THEN [District Name]&#xA;ELSE&#xA;([District Name]+[Input_#2_District Name])&#xA;ENDIF" field="District Name" size="255" type="V_String" />
+            <FormulaField expression="IF [District ID]!=&quot;NULL&quot; THEN [District ID]&#xA;ELSE&#xA;([Input_#2_District ID]+[District ID])&#xA;ENDIF" field="District ID" size="19" type="String" />
+            <FormulaField expression="IF [School Name]!=&quot;NULL&quot; THEN [School Name]&#xA;ELSE&#xA;([School Name]+[Input_#2_School Name])&#xA;ENDIF" field="School Name" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School ID = IF [School ID]!="NULL" THEN [School ID]
+ELSE
+([School ID]+[Input_#2_...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="366" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SR - Public Records Request No 19-487.xlsx
+Query=`NSLP Sites$A1:AB2236`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sponsor Id" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="Double" />
+            <Field name="Sponsor" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="Site Id" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="Double" />
+            <Field name="Site Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="Primary Address" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="Secondary Address" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="Zip" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="Free Eligible" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="Double" />
+            <Field name="Reduced Price Eligible" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="Double" />
+            <Field name="Paid Eligible" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="Double" />
+            <Field name="Total Enrollment" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="Double" />
+            <Field name="Pre-K" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="K" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="1" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="2" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="3" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="4" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="5" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="6" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="7" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="8" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="9" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="10" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="11" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="12" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+            <Field name="Site Claiming Option" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`NSLP Sites$A1:AB2236`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="558" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sponsor Id" selected="True" rename="District ID" />
+            <SelectField field="Sponsor" selected="True" rename="District Name" />
+            <SelectField field="Site Id" selected="True" rename="School ID" />
+            <SelectField field="Site Name" selected="True" rename="School Name" />
+            <SelectField field="Primary Address" selected="True" rename="Street Address-Line 1" />
+            <SelectField field="Secondary Address" selected="True" rename="Street Address-LIne 2" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Zip" selected="True" rename="Zip Code" />
+            <SelectField field="Free Eligible" selected="True" rename="Enrollment-Free" />
+            <SelectField field="Reduced Price Eligible" selected="True" rename="Enrollment-Reduced" />
+            <SelectField field="Paid Eligible" selected="True" rename="Enrollment-Paid" />
+            <SelectField field="Total Enrollment" selected="True" />
+            <SelectField field="Pre-K" selected="True" />
+            <SelectField field="K" selected="True" />
+            <SelectField field="1" selected="True" />
+            <SelectField field="2" selected="True" />
+            <SelectField field="3" selected="True" />
+            <SelectField field="4" selected="True" />
+            <SelectField field="5" selected="True" />
+            <SelectField field="6" selected="True" />
+            <SelectField field="7" selected="True" />
+            <SelectField field="8" selected="True" />
+            <SelectField field="9" selected="True" />
+            <SelectField field="10" selected="True" />
+            <SelectField field="11" selected="True" />
+            <SelectField field="12" selected="True" />
+            <SelectField field="Site Claiming Option" selected="True" rename="CEP(Y/N)" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="666" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF([Pre-K]=&quot;YES&quot;,&quot;Pre-K,&quot;,&quot;&quot;) +&#xA;IIF([K]=&quot;YES&quot;,&quot;K,&quot;,&quot;&quot;) + &#xA;IIF([1]=&quot;YES&quot;,&quot;1,&quot;,&quot;&quot;) +&#xA;IIF([2]=&quot;YES&quot;,&quot;2,&quot;,&quot;&quot;) + &#xA;IIF([3]=&quot;YES&quot;,&quot;3,&quot;,&quot;&quot;) +&#xA;IIF([4]=&quot;YES&quot;,&quot;4,&quot;,&quot;&quot;) + &#xA;IIF([5]=&quot;YES&quot;,&quot;5,&quot;,&quot;&quot;) + &#xA;IIF([6]=&quot;YES&quot;,&quot;6,&quot;,&quot;&quot;) +&#xA;IIF([7]=&quot;YES&quot;,&quot;7,&quot;,&quot;&quot;) + &#xA;IIF([8]=&quot;YES&quot;,&quot;8,&quot;,&quot;&quot;) +&#xA;IIF([9]=&quot;YES&quot;,&quot;9,&quot;,&quot;&quot;) +&#xA;IIF([10]=&quot;YES&quot;,&quot;10,&quot;,&quot;&quot;) +&#xA;IIF([11]=&quot;YES&quot;,&quot;11,&quot;,&quot;&quot;) +&#xA;IIF([12]=&quot;YES&quot;,&quot;12,&quot;,&quot;&quot;)" field="School Level-Original" size="255" type="V_WString" />
+            <FormulaField expression="IF [CEP(Y/N)]= &quot;CEP&quot; THEN &quot;Y&quot; ELSE &quot;N&quot;&#xA;ENDIF" field="CEP(Y/N)" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School Level-Original = IIF([Pre-K]="YES","Pre-K,","") +
+IIF([K]="YES","K,","") ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" type="String" size="19" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="School ID" selected="True" type="String" size="19" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-LIne 2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="Total Enrollment" selected="True" />
+            <SelectField field="CEP(Y/N)" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Operating Daya-Lunch Only" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Input_#2_Claim Date" selected="False" />
+            <SelectField field="Input_#2_District ID" selected="False" />
+            <SelectField field="Input_#2_District Name" selected="False" />
+            <SelectField field="Input_#2_School ID" selected="False" />
+            <SelectField field="Input_#2_School Name" selected="False" />
+            <SelectField field="Operating Days Breakfast-Only" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="Claim Date1" selected="False" />
+            <SelectField field="School ID1" selected="False" />
+            <SelectField field="District ID1" selected="False" />
+            <SelectField field="District Name1" selected="False" />
+            <SelectField field="School Name1" selected="False" />
+            <SelectField field="SchoolID2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="798" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SR - Public Records Request No 19-487.xlsx
+Query=`Breakfast Delivery Method$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SponsorID" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="Double" />
+            <Field name="SponsorName" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="V_String" />
+            <Field name="SiteId" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="Double" />
+            <Field name="Site" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="V_String" />
+            <Field name="Service Type" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="V_String" />
+            <Field name="Second Chance" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="V_String" />
+            <Field name="Second Chance Vending Machine" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="V_String" />
+            <Field name="GrabnGo" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="V_String" />
+            <Field name="Breakfast in the Classroom" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="V_String" />
+            <Field name="Other" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="V_String" />
+            <Field name="OtherExplanation" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\SR - Public Records Request No 19-487.xlsx|||`Breakfast Delivery Method$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SponsorID" selected="True" rename="District ID" />
+            <SelectField field="SponsorName" selected="True" rename="District Name" type="String" size="255" />
+            <SelectField field="SiteId" selected="True" rename="School ID" type="String" size="19" />
+            <SelectField field="Site" selected="True" rename="School Name" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1014" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF([Second Chance]=&quot;Yes&quot;,&quot;Second Chance&quot;,&quot;&quot;)+&quot;,&quot;+IIF([Second Chance Vending Machine]=&quot;Yes&quot;,&quot;Second Chance Vending machine&quot;,&quot;&quot;)+&quot;,&quot;+ IIF([GrabnGo]=&quot;Yes&quot;,&quot;GrabnGo&quot;,&quot;&quot;)+&quot;,&quot;+IIF([Breakfast in the Classroom]=&quot;Yes&quot;,&quot;Breakfast in the Classroom&quot;,&quot;&quot;)+&quot;,&quot;+IIF([Other]=&quot;Yes&quot;,&quot;Other&quot;,&quot;&quot;)+&quot;,&quot;+IIF([OtherExplanation]=&quot;Yes&quot;,&quot;OtherExplanation&quot;,&quot;&quot;)" field="Breakfast Delivery Model from State Agency Tracking-Original" size="255" type="V_WString" />
+            <FormulaField expression="REGEX_Replace([Breakfast Delivery Model from State Agency Tracking-Original],&quot;,,,,&quot;,&quot;&quot;)&#xA;" field="Breakfast Delivery Model from State Agency Tracking-Original" size="255" type="V_WString" />
+            <FormulaField expression="REGEX_Replace([Breakfast Delivery Model from State Agency Tracking-Original],&quot;,,,&quot;,&quot;&quot;)" field="Breakfast Delivery Model from State Agency Tracking-Original" size="255" type="V_WString" />
+            <FormulaField expression="REGEX_Replace([Breakfast Delivery Model from State Agency Tracking-Original],&quot;,,&quot;,&quot;&quot;)" field="Breakfast Delivery Model from State Agency Tracking-Original" size="255" type="V_WString" />
+            <FormulaField expression="TRIM([Breakfast Delivery Model from State Agency Tracking-Original],&quot;,&quot;)" field="Breakfast Delivery Model from State Agency Tracking-Original" size="255" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Breakfast Delivery Model from State Agency Tracking-Original = IIF([Second Chanc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1122" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" type="String" size="19" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="TemporaryColumn" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1158" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-LIne 2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="Total Enrollment" selected="True" />
+            <SelectField field="CEP(Y/N)" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="Right_District ID" selected="True" />
+            <SelectField field="Right_District Name" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="Right_School ID" selected="True" />
+            <SelectField field="Right_School Name" selected="True" />
+            <SelectField field="Operating Daya-Lunch Only" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Operating Days Breakfast-Only" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="966" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="834" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="District ID" />
+            <Field field="School ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="District ID" />
+            <Field field="School ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_District ID" selected="True" rename="Right_District ID" input="Right_" />
+                <SelectField field="Right_District Name" selected="True" rename="Right_District Name" input="Right_" />
+                <SelectField field="Right_School ID" selected="True" rename="Right_School ID" input="Right_" />
+                <SelectField field="Right_School Name" selected="True" rename="Right_School Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ayush\AppData\Local\Temp\Engine_23276_0a73060318794103815f11464c73422e_\Engine_16928_70c2a105b0b34ed4ade45b6be49d66bc_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1254" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="District ID" />
+            <Field field="School ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="District ID" />
+            <Field field="School ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Right_District ID" selected="True" rename="Left_Right_District ID" input="Left_" />
+                <SelectField field="Left_Right_District Name" selected="True" rename="Left_Right_District Name" input="Left_" />
+                <SelectField field="Left_Right_School ID" selected="True" rename="Left_Right_School ID" input="Left_" />
+                <SelectField field="Left_Right_School Name" selected="True" rename="Left_Right_School Name" input="Left_" />
+                <SelectField field="Right_District ID" selected="True" rename="Right_District ID" input="Right_" />
+                <SelectField field="Right_District Name" selected="True" rename="Right_District Name" input="Right_" />
+                <SelectField field="Right_School ID" selected="True" rename="Right_School ID" input="Right_" />
+                <SelectField field="Right_School Name" selected="True" rename="Right_School Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1338" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1434" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-LIne 2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="Total Enrollment" selected="True" />
+            <SelectField field="CEP(Y/N)" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="Operating Daya-Lunch Only" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Operating Days Breakfast-Only" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="Right_District ID" selected="True" />
+            <SelectField field="Right_District Name" selected="True" />
+            <SelectField field="Right_School ID" selected="True" />
+            <SelectField field="Right_School Name" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1062" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [District ID]!=&quot;NULL&quot; THEN [District ID] ELSE ([District ID]+[Right_District ID]) ENDIF" field="District ID" size="19" type="String" />
+            <FormulaField expression="IF [District Name]!=&quot;NULL&quot; THEN [District Name] ELSE ([District Name]+[Right_District Name]) ENDIF" field="District Name" size="255" type="V_String" />
+            <FormulaField expression="IF [School ID]!=&quot;NULL&quot; THEN [School ID] ELSE ([School ID]+[Right_School ID]) ENDIF" field="School ID" size="19" type="String" />
+            <FormulaField expression="IF [School Name]!=&quot;NULL&quot; THEN [School Name] ELSE ([School Name]+[Right_School Name]) ENDIF" field="School Name" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>District ID = IF [District ID]!="NULL" THEN [District ID] ELSE ([District ID]+[R...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1518" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [District ID]!=&quot;NULL&quot; THEN [District ID] ELSE ([Right_District ID]+[District ID]) ENDIF" field="District ID" size="19" type="String" />
+            <FormulaField expression="IF [District Name]!=&quot;NULL&quot; THEN [District Name] ELSE ([District Name]+[Right_District Name]) ENDIF" field="District Name" size="255" type="V_String" />
+            <FormulaField expression="IF [School ID]!=&quot;NULL&quot; THEN [School ID] ELSE ([School ID]+[Right_School ID]) ENDIF" field="School ID" size="19" type="String" />
+            <FormulaField expression="IF [School Name]!=&quot;NULL&quot; THEN [School Name] ELSE ([School Name]+[Right_School Name]) ENDIF" field="School Name" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>District ID = IF [District ID]!="NULL" THEN [District ID] ELSE ([Right_District ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1602" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-LIne 2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="Total Enrollment" selected="True" />
+            <SelectField field="CEP(Y/N)" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="Operating Daya-Lunch Only" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Operating Days Breakfast-Only" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="Service Type" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1314" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>WA NCES School Data, SY15-16.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="School Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="State Name [Public School] Latest available year" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="State Name [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="State Abbr [Public School] Latest available year" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="School Name [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="School ID - NCES Assigned [Public School] Latest available year" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Agency Name [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Agency ID - NCES Assigned [Public School] Latest available year" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="County Name [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="County Number [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="ANSI/FIPS State Code [Public School] Latest available year" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Web Site URL [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Years School Reported Data [Public School] Latest available year" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Years School Did Not Report Data [Public School] Latest available year" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Location Address 1 [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Location Address 2 [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Location Address 3 [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Location City [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Location State Abbr [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Location ZIP [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Location ZIP4 [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mailing Address 1 [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mailing Address 2 [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mailing Address 3 [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mailing City [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mailing State Abbr [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mailing ZIP [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Mailing ZIP4 [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Phone Number [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Out of State Flag [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="School Type [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Agency Type [District] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Start of Year Status [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Updated Status [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Effective Date of Updated Status [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Charter School [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Magnet School [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Shared Time School [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Urban-centric Locale [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="School-wide Title I [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Title I Eligible School [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Title I School Status [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="CBSA Name [District] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="CBSA ID [District] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="CSA Name [District] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="CSA ID [District] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Latitude [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Longitude [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="State School ID [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="State Agency ID [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Congressional Code [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Reconstituted flag [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Virtual School Status [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="National School Lunch Program [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Charter Authorizer Name Primary [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Charter Authorizer Name Secondary [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Supervisory Union (ID) Number [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="School Level Code [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Lowest Grade Offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Highest Grade Offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Prekindergarten offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Kindergarten offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 1 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 2 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 3 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 4 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 5 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 6 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 7 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 8 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 9 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 10 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 11 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 12 offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Grade 13 Offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Ungraded offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Adult Education Offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="No Grades Offered [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Total Students, All Grades (Excludes AE) [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Total Students, All Grades (Includes AE) [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Free Lunch Eligible [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Reduced-price Lunch Eligible Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Free and Reduced Lunch Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grades 1-8 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grades 9-12 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Prekindergarten Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Kindergarten Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 1 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 2 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 3 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 4 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 5 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 6 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 7 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 8 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 9 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 10 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 11 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 12 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Grade 13 Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Ungraded Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Adult Education Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Male Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Female Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="American Indian/Alaska Native Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Asian or Asian/Pacific Islander Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Hispanic Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Black Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="White Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Hawaiian Nat./Pacific Isl. Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Two or More Races Students [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Total Race/Ethnicity [Public School] 2015-16" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Full-Time Equivalent (FTE) Teachers [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="Pupil/Teacher Ratio [Public School] 2015-16" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="ncesid" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA NCES School Data, SY15-16.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1422" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="School Name [Public School] 2015-16" selected="True" rename="School Name" />
+            <SelectField field="School ID - NCES Assigned [Public School] Latest available year" selected="True" rename="NCES ID" />
+            <SelectField field="Agency Name [Public School] 2015-16" selected="True" rename="District Name" />
+            <SelectField field="Location ZIP [Public School] 2015-16" selected="False" rename="Zip Code" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1746" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="School Name" />
+            <Field field="District Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="School Name" />
+            <Field field="District Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_District Name" selected="True" rename="Right_District Name" input="Right_" />
+                <SelectField field="Right_School Name" selected="True" rename="Right_School Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1890" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1962" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Right_District Name]!=&quot;NULL&quot; THEN [Right_District Name] ELSE ([District Name]+[Right_District Name]) ENDIF" field="Right_District Name" size="255" type="V_String" />
+            <FormulaField expression="IF [Right_School Name]!=&quot;NULL&quot; THEN [Right_School Name] ELSE ([Right_School Name]+[School Name]) ENDIF" field="Right_School Name" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Right_District Name = IF [Right_District Name]!="NULL" THEN [Right_District Name...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2070" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-LIne 2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="Total Enrollment" selected="True" />
+            <SelectField field="CEP(Y/N)" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="Operating Daya-Lunch Only" selected="True" rename="Operating Days-Lunch Only" type="V_WString" size="19" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Operating Days Breakfast-Only" selected="True" rename="Operating Days-Breakfast Only" type="V_WString" size="19" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="NCES ID" selected="True" />
+            <SelectField field="Service Type" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2358" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;NULL&quot;" field="Breakfast Delivery Model from State Agency Tracking-Original" size="255" type="V_WString" />
+            <FormulaField expression="&quot;WA&quot;" field="State Reporting" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="State-Physical" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Street Address-LIne 2" size="255" type="V_String" />
+            <FormulaField expression="&quot;NULL&quot;" field="Street Address-Line 1" size="255" type="V_String" />
+            <FormulaField expression="&quot;NULL&quot;" field="Provision 3(Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Provision 2(Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Provision 1(Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Universal Free(Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="datetimeformat(datetimeparse([Claim Date],&quot;%y %m, %d&quot;),&quot;%m&quot;)" field="Claim Month" size="64" type="String" />
+            <FormulaField expression="datetimeformat(datetimeparse([Claim Date],&quot;%m %d, %y&quot;),&quot;%Y&quot;)" field="Claim Year" size="64" type="String" />
+            <FormulaField expression="&quot;NULL&quot;" field="Enrollment-Free and Reduced" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Lunch Meals-Free and Reduced" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Operating Days" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="BAB Implementation Date Other Source, Note Source Here" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="BAB Implementation Date from Other Source" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="BAB Implementation Date from State Agency Tracking" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="BAB Implementation Date from Campaign Tracking Data" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Breakfast Delivery Model from Other Source, Note Source Here" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Breakfast Delivery Model from Other Source-Original" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Breakfast Delivery Model from Campaign Tracking Data-Original" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF ISNULL([Lunch Meals-Free]) AND ISNULL([Lunch Meals-Reduced]) THEN &quot;NULL&quot;&#xA;ELSEIF ISNULL([Lunch Meals-Free]) AND NOT ISNULL([Lunch Meals-Reduced])THEN [Lunch Meals-Reduced]&#xA;ELSEIF ISNULL([Lunch Meals-Reduced]) AND NOT ISNULL([Lunch Meals-Free]) THEN [Lunch Meals-Free]&#xA;ELSE&#xA;[Lunch Meals-Free] + [Lunch Meals-Reduced]&#xA;ENDIF&#xA;" field="FR Lunch Meals" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF ISNULL([Breakfast Meals-Free]) AND ISNULL([Breakfast Meals-Reduced]) THEN &quot;NULL&quot;&#xA;ELSEIF ISNULL([Breakfast Meals-Free]) AND NOT ISNULL([Breakfast Meals-Reduced])&#xA; THEN [Breakfast Meals-Reduced]&#xA;ELSEIF ISNULL([Breakfast Meals-Reduced]) AND NOT ISNULL([Breakfast Meals-Free]) THEN [Breakfast Meals-Free]&#xA;ELSE&#xA; [Breakfast Meals-Free] +[Breakfast Meals-Reduced]&#xA;ENDIF" field="FR Breakfast Meals" size="1073741823" type="V_WString" />
+            <FormulaField expression="[State Reporting]+&quot;@&quot;+ [School ID]+&quot;@&quot;+[District ID]" field="Unique ID" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;SY18-19&quot;" field="School Year" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Target Area" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF ISNULL([Enrollment-Free]) AND ISNULL([Enrollment-Reduced]) THEN &quot;NULL&quot;&#xA;ELSEIF ISNULL([Enrollment-Free]) AND NOT ISNULL([Enrollment-Reduced]) THEN [Enrollment-Reduced]&#xA;ELSEIF ISNULL([Enrollment-Reduced]) AND NOT ISNULL([Enrollment-Free]) THEN [Enrollment-Free]&#xA;ELSE&#xA; [Enrollment-Free]+ [Enrollment-Reduced]&#xA; ENDIF" field="FR Enrollment" size="255" type="V_WString" />
+            <FormulaField expression="IF([CEP(Y/N)] == &quot;N&quot;) THEN&#xA;  [FR Enrollment] / [Total Enrollment]&#xA;ELSEIF ISNULL([Lunch Meals-Free]) AND ISNULL([Lunch Meals-Paid]) THEN &#xA;  	&quot;NULL&quot;&#xA;  ELSE&#xA;  	[Lunch Meals-Free] / ([Lunch Meals-Free]+[Lunch Meals-Paid]) ENDIF&#xA;" field="FR Enrollment Percentage" size="4" type="Float" />
+            <FormulaField expression="&quot;NULL&quot;" field="School Type-Original" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="BAB Implementation Date from Grants Data" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Breakfast Delivery Model from Other Source-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Breakfast Delivery Model from State Agency Tracking-Original]" field="Breakfast Delivery Model from State Agency Tracking-Standardized" size="255" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Breakfast Delivery Model from Campaign Tracking Data-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Breakfast Delivery Model from Innovations Data-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="Breakfast Delivery Model from Grants Data-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="County" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF ISNULL([Operating Days-Lunch Only]) AND ISNULL([Operating Days]) &#xA;THEN 18.5&#xA;ELSEIF ISNULL([Operating Days-Lunch Only]) AND NOT ISNULL([Operating Days]) &#xA;THEN [Operating Days]&#xA;ELSE [Operating Days-Lunch Only]&#xA;ENDIF" field="Operating Days-Lunch Only" size="19" type="V_WString" />
+            <FormulaField expression="[FR Lunch Meals]/[Operating Days-Lunch Only]" field="FR Lunch ADP" size="8" type="Double" />
+            <FormulaField expression="IF ISNULL([Operating Days-Breakfast Only]) AND ISNULL([Operating Days]) &#xA;THEN 18.5&#xA;ELSEIF ISNULL([Operating Days-Breakfast Only]) AND NOT ISNULL([Operating Days]) &#xA;THEN [Operating Days]&#xA;ELSE [Operating Days-Breakfast Only]&#xA;ENDIF" field="Operating Days-Breakfast Only" size="19" type="V_WString" />
+            <FormulaField expression="[FR Breakfast Meals]/[Operating Days-Breakfast Only]" field="FR Breakfast ADP" size="4" type="Float" />
+            <FormulaField expression="&quot;NULL&quot;" field="School Type-Original" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;NULL&quot;" field="School Type-Standardized" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Breakfast Delivery Model from State Agency Tracking-Original = "NULL"
+State Repo...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2454" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="2250" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA County and School Type.xlsx|||`WA Counties and School Type$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>WA County and School Type.xlsx
+Query=`WA Counties and School Type...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Unique ID" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA County and School Type.xlsx|||`WA Counties and School Type$`" type="V_String" />
+            <Field name="District Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA County and School Type.xlsx|||`WA Counties and School Type$`" type="V_String" />
+            <Field name="School Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA County and School Type.xlsx|||`WA Counties and School Type$`" type="V_String" />
+            <Field name="School Type Original" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA County and School Type.xlsx|||`WA Counties and School Type$`" type="V_String" />
+            <Field name="County" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA County and School Type.xlsx|||`WA Counties and School Type$`" type="V_String" />
+            <Field name="School Type manually coded?" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA County and School Type.xlsx|||`WA Counties and School Type$`" type="Double" />
+            <Field name="County manually coded?" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\WA County and School Type.xlsx|||`WA Counties and School Type$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2346" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Unique ID" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2550" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left" />
+          <JoinInfo connection="Right" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2646" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2838" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2934" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Clean Data\Clean Data-Dictionary_WA Breakfast SY18-19 Alteryx.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Clean Data-Dictionary_WA Breakfast SY18-19 Alteryx.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2742" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings>
+        <Position x="2262" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">""</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="2166" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Claim Date</InputFieldName>
+          <Format>mm/yyyy</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Claim Date From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1350" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data Request- ISP.xlsx
+Query=`Schools Part. in CEP SY 19-...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="LEA ID" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="V_String" />
+            <Field name="LEA Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="V_String" />
+            <Field name="School ID" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="V_String" />
+            <Field name="School Name" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="V_String" />
+            <Field name="Claiming Identified Student Percentage (ISP)  (BEFORE APPLYING THE 1.6 MULTIPLIER)" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="Double" />
+            <Field name="Individual School Idenified Student Percentage (ISP) as of April 1, 2019" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="Double" />
+            <Field name="Student Enrollment " source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="Double" />
+            <Field name="Participating as an Individual Site" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="V_String" />
+            <Field name="Participating as part of a Group of Schools" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="V_String" />
+            <Field name="Participating as Part of an Entire District" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="V_String" />
+            <Field name="CEP Cycle Start Date" size="255" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="V_String" />
+            <Field name="Comments" source="File: C:\Users\ayush\Documents\GitHub\Data-Wranglers-Data-Engineering-Project\Data\Washington WA\Raw Data\Data Request- ISP.xlsx|||`Schools Part. in CEP SY 19-20$A2:L316`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1758" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="District ID" />
+            <Field field="School ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="District ID" />
+            <Field field="School ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_District ID" selected="True" rename="Right_District ID" input="Right_" />
+                <SelectField field="Right_District Name" selected="True" rename="Right_District Name" input="Right_" />
+                <SelectField field="Right_School ID" selected="True" rename="Right_School ID" input="Right_" />
+                <SelectField field="Right_School Name" selected="True" rename="Right_School Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1470" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="LEA ID" selected="True" rename="District ID" />
+            <SelectField field="LEA Name" selected="True" rename="District Name" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Individual School Idenified Student Percentage (ISP) as of April 1, 2019" selected="True" rename="ISP" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1842" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1998" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [District ID]!=&quot;NULL&quot; THEN [District ID] ELSE ([Right_District ID]+[District ID]) ENDIF" field="District ID" size="19" type="String" />
+            <FormulaField expression="IF [School ID]!=&quot;NULL&quot; THEN [School ID] ELSE ([Right_School ID]+[School ID]) ENDIF" field="School ID" size="19" type="String" />
+            <FormulaField expression="IF [District Name]!=&quot;NULL&quot; THEN [District Name] ELSE ([Right_District Name]+[District Name]) ENDIF" field="District Name" size="255" type="V_String" />
+            <FormulaField expression="IF [School Name]!=&quot;NULL&quot; THEN [School Name] ELSE ([Right_School Name]+[School Name]) ENDIF" field="School Name" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>District ID = IF [District ID]!="NULL" THEN [District ID] ELSE ([Right_District ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1926" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="28" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="28" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="28" Connection="Join" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="28" Connection="Left" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="30" Connection="Left" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="58" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="58" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="41" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="41" Connection="Right" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="41" Connection="Join" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="41" Connection="Right" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="50" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="50" Connection="Join" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="50" Connection="Left" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output26" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="55" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="58" Connection="Left" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="58" Connection="Join" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Washington_recipe</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
