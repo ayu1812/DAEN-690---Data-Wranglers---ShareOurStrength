@@ -1,0 +1,2298 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1902" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>2</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>frpm1819.xlsx
+Query=`FRPM School-Level Data $`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Academic Year" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="County Code" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="District Code" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="School Code" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="County Name" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="District Name" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="School Name" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="District Type" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="School Type" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="Educational &#xA;Option Type" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="NSLP &#xA;Provision &#xA;Status" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="Charter &#xA;School &#xA;(Y/N)" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="Charter &#xA;School &#xA;Number" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="Charter &#xA;Funding &#xA;Type" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="IRC" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="Low Grade" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="High Grade" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+            <Field name="Enrollment &#xA;(K-12)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="Free Meal &#xA;Count &#xA;(K-12)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="Percent (%) &#xA;Eligible Free &#xA;(K-12)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="FRPM Count &#xA;(K-12)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="Percent (%) &#xA;Eligible FRPM &#xA;(K-12)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="Enrollment &#xA;(Ages 5-17)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="Free Meal &#xA;Count &#xA;(Ages 5-17)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="FRPM Count &#xA;(Ages 5-17)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="Double" />
+            <Field name="CALPADS Fall 1 &#xA;Certification Status" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\frpm1819.xlsx|||`FRPM School-Level Data $`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="1986" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"Academic Year","County Code","District Code","School Code","County Name","District Name","School Name","District Type","School Type","Educational 
+Option Type","NSLP 
+Provision 
+Status","Charter 
+School 
+(Y/N)","Charter 
+School 
+Number","Charter 
+Funding 
+Type","IRC","Low Grade","High Grade","Enrollment 
+(K-12)","Free Meal 
+Count 
+(K-12)","Percent (%) 
+Eligible Free 
+(K-12)","FRPM Count 
+(K-12)","Percent (%) 
+Eligible FRPM 
+(K-12)","Enrollment 
+(Ages 5-17)","Free Meal 
+Count 
+(Ages 5-17)","Percent (%) 
+Eligible Free 
+(Ages 5-17)","FRPM Count 
+(Ages 5-17)","Percent (%) 
+Eligible FRPM 
+(Ages 5-17)","CALPADS Fall 1 
+Certification Status"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="2070" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Academic Year" selected="True" />
+            <Field field="County Code" selected="True" />
+            <Field field="District Code" selected="True" />
+            <Field field="School Code" selected="True" />
+            <Field field="County Name" selected="True" />
+            <Field field="District Name" selected="True" />
+            <Field field="School Name" selected="True" />
+            <Field field="District Type" selected="True" />
+            <Field field="School Type" selected="True" />
+            <Field field="Educational &#xA;Option Type" selected="True" />
+            <Field field="NSLP &#xA;Provision &#xA;Status" selected="True" />
+            <Field field="Charter &#xA;School &#xA;(Y/N)" selected="True" />
+            <Field field="Charter &#xA;School &#xA;Number" selected="True" />
+            <Field field="Charter &#xA;Funding &#xA;Type" selected="True" />
+            <Field field="IRC" selected="True" />
+            <Field field="Low Grade" selected="True" />
+            <Field field="High Grade" selected="True" />
+            <Field field="CALPADS Fall 1 &#xA;Certification Status" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Academic Year" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="County Code" size="2" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="District Code" source="Formula: [_CurrentField_]" type="Int32" />
+            <Field name="School Code" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="County Name" size="15" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="District Name" size="74" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="School Name" size="89" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="District Type" size="32" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="School Type" size="41" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Educational &#xA;Option Type" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="NSLP &#xA;Provision &#xA;Status" size="21" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Charter &#xA;School &#xA;(Y/N)" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Charter &#xA;School &#xA;Number" size="4" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Charter &#xA;Funding &#xA;Type" size="15" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="IRC" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Low Grade" size="5" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="High Grade" size="14" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Enrollment &#xA;(K-12)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Free Meal &#xA;Count &#xA;(K-12)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Percent (%) &#xA;Eligible Free &#xA;(K-12)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="FRPM Count &#xA;(K-12)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Percent (%) &#xA;Eligible FRPM &#xA;(K-12)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Enrollment &#xA;(Ages 5-17)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Free Meal &#xA;Count &#xA;(Ages 5-17)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="FRPM Count &#xA;(Ages 5-17)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)" source="Formula: IF [_CurrentFieldName_] IN(&quot;Academic Year&quot;,&quot;County Code&quot;,&quot;District Code&quot;,&quot;School Code&quot;,&quot;County Name&quot;,&quot;District Name&quot;,&quot;School Name&quot;,&quot;District Type&quot;,&quot;School Type&quot;,&quot;Educational &#xA;Option Type&quot;,&quot;NSLP &#xA;Provision &#xA;Status&quot;,&quot;Charter &#xA;School &#xA;(Y/N)&quot;,&quot;Charter &#xA;School &#xA;Number&quot;,&quot;Charter &#xA;Funding &#xA;Type&quot;,&quot;IRC&quot;,&quot;Low Grade&quot;,&quot;High Grade&quot;,&quot;Enrollment &#xA;(K-12)&quot;,&quot;Free Meal &#xA;Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(K-12)&quot;,&quot;FRPM Count &#xA;(K-12)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(K-12)&quot;,&quot;Enrollment &#xA;(Ages 5-17)&quot;,&quot;Free Meal &#xA;Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible Free &#xA;(Ages 5-17)&quot;,&quot;FRPM Count &#xA;(Ages 5-17)&quot;,&quot;Percent (%) &#xA;Eligible FRPM &#xA;(Ages 5-17)&quot;,&quot;CALPADS Fall 1 &#xA;Certification Status&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="CALPADS Fall 1 &#xA;Certification Status" size="1" source="Formula: [_CurrentField_]" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2142" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Academic Year" selected="False" type="Int32" size="4" />
+            <SelectField field="County Code" selected="True" size="255" />
+            <SelectField field="District Code" selected="True" type="String" size="255" />
+            <SelectField field="School Code" selected="True" size="255" />
+            <SelectField field="Enrollment &#xA;(K-12)" selected="True" rename="Enrollment-Total" type="Int32" size="4" />
+            <SelectField field="Free Meal &#xA;Count &#xA;(K-12)" selected="True" rename="Enrollment-Free" type="Int32" size="4" />
+            <SelectField field="Percent (%) &#xA;Eligible Free &#xA;(K-12)" selected="False" type="Int32" size="4" />
+            <SelectField field="FRPM Count &#xA;(K-12)" selected="True" rename="Enrollment-Reduced" type="Int32" size="4" />
+            <SelectField field="CALPADS Fall 1 &#xA;Certification Status" selected="False" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2238" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[County Code]+[District Code]+[School Code]" field="School ID" size="64" type="String" />
+            <FormulaField expression="[Enrollment-Total]-[Enrollment-Reduced]" field="Enrollment-Paid" size="4" type="Int32" />
+            <FormulaField expression="[Enrollment-Reduced]-[Enrollment-Free]" field="Enrollment-Reduced" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School ID = [County Code]+[District Code]+[School Code]
+Enrollment-Paid = [Enrol...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2358" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="County Code" selected="False" />
+            <SelectField field="District Code" selected="False" />
+            <SelectField field="School Code" selected="False" />
+            <SelectField field="Enrollment-Total" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>6</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ID.1101_2019-10-24 Share Our Strength - SNP.xlsx
+Query=`Breakfast - SNP$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProgramGroupYear" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Double" />
+            <Field name="FnsReportDate" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Date" />
+            <Field name="SponsorTypePartB" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="MealTypeCode" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="Name" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="AgencyStreetAddressCountyName" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="SiteID" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Double" />
+            <Field name="SiteName" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="CDSCode" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Double" />
+            <Field name="TotalEnrollment" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Double" />
+            <Field name="FreeEligQty" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Double" />
+            <Field name="RedcEligQty" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Double" />
+            <Field name="PaidEligQty" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Double" />
+            <Field name="MlsServedFree" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="MlsServedRedc" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="MlsServedPaid" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="MlsServedTotal" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Double" />
+            <Field name="DaysServedQty" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Double" />
+            <Field name="SiteTypeDesc" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="ProvisionTypeApprovedLunch" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="ProvisionTypeApprovedBreakfast" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressStreet1" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressStreet2" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressCity" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressState" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressZIPCode" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressCountyName" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings>
+        <Position x="210" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"ProgramGroupYear","FnsReportDate","SponsorTypePartB","MealTypeCode","Name","AgencyStreetAddressCountyName","SiteID","SiteName","CDSCode","TotalEnrollment","FreeEligQty","RedcEligQty","PaidEligQty","MlsServedFree","MlsServedRedc","MlsServedPaid","MlsServedTotal","DaysServedQty","SiteTypeDesc","ProvisionTypeApprovedLunch","ProvisionTypeApprovedBreakfast","SiteStreetAddressStreet1","SiteStreetAddressStreet2","SiteStreetAddressCity","SiteStreetAddressState","SiteStreetAddressZIPCode","SiteStreetAddressCountyName"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="294" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="SponsorTypePartB" selected="True" />
+            <Field field="MealTypeCode" selected="True" />
+            <Field field="Name" selected="True" />
+            <Field field="AgencyStreetAddressCountyName" selected="True" />
+            <Field field="SiteName" selected="True" />
+            <Field field="MlsServedRedc" selected="True" />
+            <Field field="MlsServedPaid" selected="True" />
+            <Field field="SiteTypeDesc" selected="True" />
+            <Field field="ProvisionTypeApprovedLunch" selected="True" />
+            <Field field="ProvisionTypeApprovedBreakfast" selected="True" />
+            <Field field="SiteStreetAddressStreet1" selected="True" />
+            <Field field="SiteStreetAddressStreet2" selected="True" />
+            <Field field="SiteStreetAddressCity" selected="True" />
+            <Field field="SiteStreetAddressState" selected="True" />
+            <Field field="SiteStreetAddressZIPCode" selected="True" />
+            <Field field="SiteStreetAddressCountyName" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProgramGroupYear" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="FnsReportDate" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Breakfast - SNP$`" type="Date" />
+            <Field name="SponsorTypePartB" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MealTypeCode" size="25" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Name" size="58" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="AgencyStreetAddressCountyName" size="15" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SiteID" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="SiteName" size="64" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="CDSCode" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="TotalEnrollment" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="FreeEligQty" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="RedcEligQty" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="PaidEligQty" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="MlsServedFree" size="5" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MlsServedRedc" size="4" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MlsServedPaid" size="5" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MlsServedTotal" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="DaysServedQty" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="SiteTypeDesc" size="33" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="ProvisionTypeApprovedLunch" size="17" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="ProvisionTypeApprovedBreakfast" size="17" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SiteStreetAddressStreet1" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SiteStreetAddressStreet2" size="39" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SiteStreetAddressCity" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SiteStreetAddressState" size="2" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="SiteStreetAddressZIPCode" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="SiteStreetAddressCountyName" size="15" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FnsReportDate" selected="True" rename="Claim Date" />
+            <SelectField field="Name" selected="True" rename="District Name" />
+            <SelectField field="AgencyStreetAddressCountyName" selected="True" />
+            <SelectField field="SiteID" selected="True" type="String" size="19" />
+            <SelectField field="SiteName" selected="True" rename="School Name" type="String" size="255" />
+            <SelectField field="CDSCode" selected="True" type="String" size="19" />
+            <SelectField field="MlsServedFree" selected="True" rename="Breakfast Meals-Free" />
+            <SelectField field="MlsServedRedc" selected="True" rename="Breakfast Meals-Reduced" />
+            <SelectField field="MlsServedPaid" selected="True" rename="Breakfast Meals-Paid" />
+            <SelectField field="DaysServedQty" selected="True" rename="Operating Days-Breakfast Only" type="Int32" size="4" />
+            <SelectField field="SiteTypeDesc" selected="True" rename="School Type-Original" type="String" size="255" />
+            <SelectField field="ProvisionTypeApprovedBreakfast" selected="True" />
+            <SelectField field="SiteStreetAddressStreet1" selected="True" rename="Street Address-Line 1" type="String" size="255" />
+            <SelectField field="SiteStreetAddressStreet2" selected="True" rename="Street Address-Line 2" type="String" size="255" />
+            <SelectField field="SiteStreetAddressCity" selected="True" rename="City" type="String" size="255" />
+            <SelectField field="SiteStreetAddressState" selected="True" rename="State-Physical" />
+            <SelectField field="SiteStreetAddressZIPCode" selected="True" rename="Zip Code" />
+            <SelectField field="SiteStreetAddressCountyName" selected="True" type="String" size="255" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="462" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF !IsNull([CDSCode]) OR [CDSCode]!=&quot;0&quot; OR [CDSCode]!=&quot;N/A&quot; THEN [CDSCode] ELSE [SiteID] ENDIF" field="School ID" size="64" type="String" />
+            <FormulaField expression="IF IsNull([SiteStreetAddressCountyName]) OR [SiteStreetAddressCountyName]=&quot;N/A&quot; THEN [AgencyStreetAddressCountyName] ELSE [SiteStreetAddressCountyName] ENDIF" field="County" size="255" type="V_String" />
+            <FormulaField expression="IF [ProvisionTypeApprovedBreakfast] = &quot;CEP&quot; THEN &quot;Y&quot; Else &quot;N&quot; ENDIF" field="CEP (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [ProvisionTypeApprovedBreakfast] = &quot;Provision 1&quot; THEN &quot;Y&quot; Else &quot;N&quot; ENDIF" field="Provision 1 (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [ProvisionTypeApprovedBreakfast] = &quot;Provision 2&quot; THEN &quot;Y&quot; Else &quot;N&quot; ENDIF" field="Provision 2 (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [ProvisionTypeApprovedBreakfast] = &quot;Provision 3&quot; THEN &quot;Y&quot; Else &quot;N&quot; ENDIF" field="Provision 3 (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeFormat([Claim Date],&quot;%m&quot;)" field="Claim Month" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeFormat([Claim Date],&quot;%Y&quot;)" field="Claim Year" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School ID = IF !IsNull([CDSCode]) OR [CDSCode]!="0" OR [CDSCode]!="N/A" THEN [CD...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1542" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CA District IDs by District Name.xlsx
+Query=`District IDs$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="District Name" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="V_String" />
+            <Field name="County" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="V_String" />
+            <Field name="District ID" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="V_String" />
+            <Field name="F4" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="Double" />
+            <Field name="Note: Join on District Name only if no county listed. Join on District Name and County if both are listed." source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="Double" />
+            <Field name="F6" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="Double" />
+            <Field name="F7" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="Double" />
+            <Field name="F8" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="Double" />
+            <Field name="F9" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="Double" />
+            <Field name="F10" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="Double" />
+            <Field name="F11" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="Double" />
+            <Field name="F12" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\CA District IDs by District Name.xlsx|||`District IDs$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>6</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ID.1101_2019-10-24 Share Our Strength - SNP.xlsx
+Query=`Lunch - SNP$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProgramGroupYear" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Double" />
+            <Field name="FnsReportDate" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Date" />
+            <Field name="SponsorTypePartB" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="MealTypeCode" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="Name" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="AgencyStreetAddressCountyName" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="SiteID" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Double" />
+            <Field name="SiteName" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="CDSCode" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Double" />
+            <Field name="TotalEnrollment" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Double" />
+            <Field name="FreeEligQty" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Double" />
+            <Field name="RedcEligQty" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Double" />
+            <Field name="PaidEligQty" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Double" />
+            <Field name="MlsServedFree" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="MlsServedRedc" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="MlsServedPaid" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="MlsServedTotal" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Double" />
+            <Field name="DaysServedQty" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Double" />
+            <Field name="SiteTypeDesc" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="ProvisionTypeApprovedLunch" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="ProvisionTypeApprovedBreakfast" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressStreet1" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressStreet2" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressCity" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressState" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressZIPCode" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+            <Field name="SiteStreetAddressCountyName" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="978" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>6</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>pubschls 2018.12.7.xlsx
+Query=`Public Schools and District...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CDSCode" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="NCESDist" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="NCESSchool" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="StatusType" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="County" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="District" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="School" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="Street" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="StreetAbr" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="Zip" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="MailStreet" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="MailStrAbr" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="MailCity" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="MailZip" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="MailState" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="Phone" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="Ext" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="WebSite" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="OpenDate" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="ClosedDate" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="Charter" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="CharterNum" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="FundingType" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="DOC" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="DOCType" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="SOC" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="SOCType" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="EdOpsCode" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="EdOpsName" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="EILCode" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="EILName" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="GSoffered" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="GSserved" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="Virtual" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="Magnet" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="Latitude" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="Longitude" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="AdmFName1" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="AdmLName1" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="AdmEmail1" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="AdmFName2" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="AdmLName2" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="AdmEmail2" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="AdmFName3" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="AdmLName3" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="AdmEmail3" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="V_String" />
+            <Field name="LastUpDate" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"ProgramGroupYear","FnsReportDate","SponsorTypePartB","MealTypeCode","Name","AgencyStreetAddressCountyName","SiteID","SiteName","CDSCode","TotalEnrollment","FreeEligQty","RedcEligQty","PaidEligQty","MlsServedFree","MlsServedRedc","MlsServedPaid","MlsServedTotal","DaysServedQty","SiteTypeDesc","ProvisionTypeApprovedLunch","ProvisionTypeApprovedBreakfast","SiteStreetAddressStreet1","SiteStreetAddressStreet2","SiteStreetAddressCity","SiteStreetAddressState","SiteStreetAddressZIPCode","SiteStreetAddressCountyName"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="258" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="SponsorTypePartB" selected="True" />
+            <Field field="MealTypeCode" selected="True" />
+            <Field field="Name" selected="True" />
+            <Field field="AgencyStreetAddressCountyName" selected="True" />
+            <Field field="SiteName" selected="True" />
+            <Field field="MlsServedRedc" selected="True" />
+            <Field field="MlsServedPaid" selected="True" />
+            <Field field="SiteTypeDesc" selected="True" />
+            <Field field="ProvisionTypeApprovedLunch" selected="True" />
+            <Field field="ProvisionTypeApprovedBreakfast" selected="True" />
+            <Field field="SiteStreetAddressStreet1" selected="True" />
+            <Field field="SiteStreetAddressStreet2" selected="True" />
+            <Field field="SiteStreetAddressCity" selected="True" />
+            <Field field="SiteStreetAddressState" selected="True" />
+            <Field field="SiteStreetAddressZIPCode" selected="True" />
+            <Field field="SiteStreetAddressCountyName" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProgramGroupYear" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="FnsReportDate" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\ID.1101_2019-10-24 Share Our Strength - SNP.xlsx|||`Lunch - SNP$`" type="Date" />
+            <Field name="SponsorTypePartB" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MealTypeCode" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Name" size="58" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="AgencyStreetAddressCountyName" size="15" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SiteID" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="SiteName" size="64" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="CDSCode" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="TotalEnrollment" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="FreeEligQty" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="RedcEligQty" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="PaidEligQty" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="MlsServedFree" size="5" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MlsServedRedc" size="4" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MlsServedPaid" size="5" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MlsServedTotal" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="DaysServedQty" source="Formula: IF [_CurrentFieldName_] IN(&quot;ProgramGroupYear&quot;,&quot;FnsReportDate&quot;,&quot;SponsorTypePartB&quot;,&quot;MealTypeCode&quot;,&quot;Name&quot;,&quot;AgencyStreetAddressCountyName&quot;,&quot;SiteID&quot;,&quot;SiteName&quot;,&quot;CDSCode&quot;,&quot;TotalEnrollment&quot;,&quot;FreeEligQty&quot;,&quot;RedcEligQty&quot;,&quot;PaidEligQty&quot;,&quot;MlsServedFree&quot;,&quot;MlsServedRedc&quot;,&quot;MlsServedPaid&quot;,&quot;MlsServedTotal&quot;,&quot;DaysServedQty&quot;,&quot;SiteTypeDesc&quot;,&quot;ProvisionTypeApprovedLunch&quot;,&quot;ProvisionTypeApprovedBreakfast&quot;,&quot;SiteStreetAddressStreet1&quot;,&quot;SiteStreetAddressStreet2&quot;,&quot;SiteStreetAddressCity&quot;,&quot;SiteStreetAddressState&quot;,&quot;SiteStreetAddressZIPCode&quot;,&quot;SiteStreetAddressCountyName&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="SiteTypeDesc" size="33" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="ProvisionTypeApprovedLunch" size="17" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="ProvisionTypeApprovedBreakfast" size="17" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="SiteStreetAddressStreet1" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SiteStreetAddressStreet2" size="39" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SiteStreetAddressCity" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SiteStreetAddressState" size="2" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="SiteStreetAddressZIPCode" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="SiteStreetAddressCountyName" size="15" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FnsReportDate" selected="True" rename="Claim Date" />
+            <SelectField field="Name" selected="True" rename="District Name" />
+            <SelectField field="AgencyStreetAddressCountyName" selected="True" />
+            <SelectField field="SiteID" selected="True" />
+            <SelectField field="SiteName" selected="True" rename="School Name" />
+            <SelectField field="CDSCode" selected="True" type="String" size="19" />
+            <SelectField field="MlsServedFree" selected="True" rename="Lunch Meals-Free" />
+            <SelectField field="MlsServedRedc" selected="True" rename="Lunch Meals-Reduced" />
+            <SelectField field="MlsServedPaid" selected="True" rename="Lunch Meals-Paid" />
+            <SelectField field="DaysServedQty" selected="True" rename="Operating Days-Lunch Only" />
+            <SelectField field="SiteTypeDesc" selected="True" rename="School Type-Original" />
+            <SelectField field="ProvisionTypeApprovedLunch" selected="True" />
+            <SelectField field="SiteStreetAddressStreet1" selected="True" rename="Street Address-Line 1" />
+            <SelectField field="SiteStreetAddressStreet2" selected="True" rename="Street Address-Line 2" />
+            <SelectField field="SiteStreetAddressCity" selected="True" rename="City" />
+            <SelectField field="SiteStreetAddressState" selected="True" rename="State-Physical" />
+            <SelectField field="SiteStreetAddressZIPCode" selected="True" rename="Zip Code" />
+            <SelectField field="SiteStreetAddressCountyName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings>
+        <Position x="1650" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"District Name","County","District ID","F4","Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.","F6","F7","F8","F9","F10","F11","F12"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="1734" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="District Name" selected="True" />
+            <Field field="County" selected="True" />
+            <Field field="District ID" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="District Name" size="61" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="County" size="14" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="District ID" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="F4" source="Formula: IF [_CurrentFieldName_] IN(&quot;District Name&quot;,&quot;County&quot;,&quot;District ID&quot;,&quot;F4&quot;,&quot;Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.&quot;,&quot;F6&quot;,&quot;F7&quot;,&quot;F8&quot;,&quot;F9&quot;,&quot;F10&quot;,&quot;F11&quot;,&quot;F12&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Note: Join on District Name only if no county listed. Join on District Name and County if both are listed." source="Formula: IF [_CurrentFieldName_] IN(&quot;District Name&quot;,&quot;County&quot;,&quot;District ID&quot;,&quot;F4&quot;,&quot;Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.&quot;,&quot;F6&quot;,&quot;F7&quot;,&quot;F8&quot;,&quot;F9&quot;,&quot;F10&quot;,&quot;F11&quot;,&quot;F12&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="F6" source="Formula: IF [_CurrentFieldName_] IN(&quot;District Name&quot;,&quot;County&quot;,&quot;District ID&quot;,&quot;F4&quot;,&quot;Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.&quot;,&quot;F6&quot;,&quot;F7&quot;,&quot;F8&quot;,&quot;F9&quot;,&quot;F10&quot;,&quot;F11&quot;,&quot;F12&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="F7" source="Formula: IF [_CurrentFieldName_] IN(&quot;District Name&quot;,&quot;County&quot;,&quot;District ID&quot;,&quot;F4&quot;,&quot;Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.&quot;,&quot;F6&quot;,&quot;F7&quot;,&quot;F8&quot;,&quot;F9&quot;,&quot;F10&quot;,&quot;F11&quot;,&quot;F12&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="F8" source="Formula: IF [_CurrentFieldName_] IN(&quot;District Name&quot;,&quot;County&quot;,&quot;District ID&quot;,&quot;F4&quot;,&quot;Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.&quot;,&quot;F6&quot;,&quot;F7&quot;,&quot;F8&quot;,&quot;F9&quot;,&quot;F10&quot;,&quot;F11&quot;,&quot;F12&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="F9" source="Formula: IF [_CurrentFieldName_] IN(&quot;District Name&quot;,&quot;County&quot;,&quot;District ID&quot;,&quot;F4&quot;,&quot;Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.&quot;,&quot;F6&quot;,&quot;F7&quot;,&quot;F8&quot;,&quot;F9&quot;,&quot;F10&quot;,&quot;F11&quot;,&quot;F12&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="F10" source="Formula: IF [_CurrentFieldName_] IN(&quot;District Name&quot;,&quot;County&quot;,&quot;District ID&quot;,&quot;F4&quot;,&quot;Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.&quot;,&quot;F6&quot;,&quot;F7&quot;,&quot;F8&quot;,&quot;F9&quot;,&quot;F10&quot;,&quot;F11&quot;,&quot;F12&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="F11" source="Formula: IF [_CurrentFieldName_] IN(&quot;District Name&quot;,&quot;County&quot;,&quot;District ID&quot;,&quot;F4&quot;,&quot;Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.&quot;,&quot;F6&quot;,&quot;F7&quot;,&quot;F8&quot;,&quot;F9&quot;,&quot;F10&quot;,&quot;F11&quot;,&quot;F12&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="F12" source="Formula: IF [_CurrentFieldName_] IN(&quot;District Name&quot;,&quot;County&quot;,&quot;District ID&quot;,&quot;F4&quot;,&quot;Note: Join on District Name only if no county listed. Join on District Name and County if both are listed.&quot;,&quot;F6&quot;,&quot;F7&quot;,&quot;F8&quot;,&quot;F9&quot;,&quot;F10&quot;,&quot;F11&quot;,&quot;F12&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1842" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings>
+        <Position x="1074" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"CDSCode","NCESDist","NCESSchool","StatusType","County","District","School","Street","StreetAbr","City","Zip","State","MailStreet","MailStrAbr","MailCity","MailZip","MailState","Phone","Ext","WebSite","OpenDate","ClosedDate","Charter","CharterNum","FundingType","DOC","DOCType","SOC","SOCType","EdOpsCode","EdOpsName","EILCode","EILName","GSoffered","GSserved","Virtual","Magnet","Latitude","Longitude","AdmFName1","AdmLName1","AdmEmail1","AdmFName2","AdmLName2","AdmEmail2","AdmFName3","AdmLName3","AdmEmail3","LastUpDate"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="1158" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="CDSCode" selected="True" />
+            <Field field="NCESDist" selected="True" />
+            <Field field="NCESSchool" selected="True" />
+            <Field field="StatusType" selected="True" />
+            <Field field="County" selected="True" />
+            <Field field="District" selected="True" />
+            <Field field="School" selected="True" />
+            <Field field="Street" selected="True" />
+            <Field field="StreetAbr" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="MailStreet" selected="True" />
+            <Field field="MailStrAbr" selected="True" />
+            <Field field="MailCity" selected="True" />
+            <Field field="MailZip" selected="True" />
+            <Field field="MailState" selected="True" />
+            <Field field="Phone" selected="True" />
+            <Field field="Ext" selected="True" />
+            <Field field="WebSite" selected="True" />
+            <Field field="OpenDate" selected="True" />
+            <Field field="ClosedDate" selected="True" />
+            <Field field="Charter" selected="True" />
+            <Field field="CharterNum" selected="True" />
+            <Field field="FundingType" selected="True" />
+            <Field field="DOC" selected="True" />
+            <Field field="DOCType" selected="True" />
+            <Field field="SOC" selected="True" />
+            <Field field="SOCType" selected="True" />
+            <Field field="EdOpsCode" selected="True" />
+            <Field field="EdOpsName" selected="True" />
+            <Field field="EILCode" selected="True" />
+            <Field field="EILName" selected="True" />
+            <Field field="GSoffered" selected="True" />
+            <Field field="GSserved" selected="True" />
+            <Field field="Virtual" selected="True" />
+            <Field field="Magnet" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="AdmFName1" selected="True" />
+            <Field field="AdmLName1" selected="True" />
+            <Field field="AdmEmail1" selected="True" />
+            <Field field="AdmFName2" selected="True" />
+            <Field field="AdmLName2" selected="True" />
+            <Field field="AdmEmail2" selected="True" />
+            <Field field="AdmFName3" selected="True" />
+            <Field field="AdmLName3" selected="True" />
+            <Field field="AdmEmail3" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CDSCode" size="15" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="NCESDist" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="NCESSchool" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="StatusType" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="County" size="15" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="District" size="74" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="School" size="89" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Street" size="62" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="StreetAbr" size="59" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="City" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Zip" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="State" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MailStreet" size="70" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="MailStrAbr" size="70" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="MailCity" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="MailZip" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="MailState" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Phone" size="14" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Ext" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="WebSite" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="OpenDate" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="ClosedDate" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Charter" size="7" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="CharterNum" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="FundingType" size="23" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="DOC" size="2" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="DOCType" size="42" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="SOC" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="SOCType" size="41" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="EdOpsCode" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="EdOpsName" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="EILCode" size="8" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="EILName" size="31" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="GSoffered" size="16" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="GSserved" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Virtual" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Magnet" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Latitude" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Longitude" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="AdmFName1" size="17" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="AdmLName1" size="22" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="AdmEmail1" size="48" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="AdmFName2" size="16" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="AdmLName2" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="AdmEmail2" size="36" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="AdmFName3" size="11" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="AdmLName3" size="16" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="AdmEmail3" size="33" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="LastUpDate" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Data\California CA\Raw Data\pubschls 2018.12.7.xlsx|||`Public Schools and Districts$`" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1266" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CDSCode" selected="True" rename="School ID" />
+            <SelectField field="EILName" selected="True" rename="School Level-Original" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="198" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="ProvisionTypeApprovedBreakfast" action="GroupBy" rename="ProvisionTypeApprovedBreakfast" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="450" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF !IsNull([CDSCode]) OR [CDSCode]!=&quot;0&quot; OR [CDSCode]!=&quot;N/A&quot; THEN [CDSCode] ELSE [SiteID] ENDIF" field="School ID" size="64" type="String" />
+            <FormulaField expression="IF IsNull([SiteStreetAddressCountyName]) OR [SiteStreetAddressCountyName]=&quot;N/A&quot; THEN [AgencyStreetAddressCountyName] ELSE [SiteStreetAddressCountyName] ENDIF" field="County" size="255" type="V_String" />
+            <FormulaField expression="IF [ProvisionTypeApprovedLunch] = &quot;CEP&quot; THEN &quot;Y&quot; Else &quot;N&quot; ENDIF" field="CEP (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [ProvisionTypeApprovedLunch] = &quot;Provision 1&quot; THEN &quot;Y&quot; Else &quot;N&quot; ENDIF" field="Provision 1 (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [ProvisionTypeApprovedLunch] = &quot;Provision 2&quot; THEN &quot;Y&quot; Else &quot;N&quot; ENDIF" field="Provision 2 (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [ProvisionTypeApprovedLunch] = &quot;Provision 3&quot; THEN &quot;Y&quot; Else &quot;N&quot; ENDIF" field="Provision 3 (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeFormat([Claim Date],&quot;%m&quot;)" field="Claim Month" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeFormat([Claim Date],&quot;%Y&quot;)" field="Claim Year" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School ID = IF !IsNull([CDSCode]) OR [CDSCode]!="0" OR [CDSCode]!="N/A" THEN [CD...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="738" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="Claim Date 2" selected="True" rename="Claim Date" />
+            <SelectField field="Claim Date" selected="False" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="AgencyStreetAddressCountyName" selected="False" />
+            <SelectField field="SiteID" selected="False" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="CDSCode" selected="False" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Operating Days-Lunch Only" selected="True" />
+            <SelectField field="School Type-Original" selected="True" />
+            <SelectField field="ProvisionTypeApprovedBreakfast" selected="False" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-Line 2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State-Physical" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="SiteStreetAddressCountyName" selected="False" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Provision 1 (Y/N)" selected="True" />
+            <SelectField field="Provision 2 (Y/N)" selected="True" />
+            <SelectField field="Provision 3 (Y/N)" selected="True" />
+            <SelectField field="Claim Month" selected="True" />
+            <SelectField field="Claim Year" selected="True" />
+            <SelectField field="ProvisionTypeApprovedLunch" selected="True" />
+            <SelectField field="Join Column" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="762" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="Claim Date 2" selected="True" rename="Claim Date" />
+            <SelectField field="Claim Date" selected="False" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="AgencyStreetAddressCountyName" selected="False" />
+            <SelectField field="SiteID" selected="False" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="CDSCode" selected="False" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="School Type-Original" selected="True" />
+            <SelectField field="ProvisionTypeApprovedBreakfast" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-Line 2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State-Physical" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="SiteStreetAddressCountyName" selected="False" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Provision 1 (Y/N)" selected="True" />
+            <SelectField field="Provision 2 (Y/N)" selected="True" />
+            <SelectField field="Provision 3 (Y/N)" selected="True" />
+            <SelectField field="Claim Month" selected="True" />
+            <SelectField field="Claim Year" selected="True" />
+            <SelectField field="Join Column " selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1158" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="Right_School ID" selected="False" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="Right_Claim Date" selected="False" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="Right_District Name" selected="False" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Right_School Name" selected="False" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Operating Days-Lunch Only" selected="True" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="School Type-Original" selected="True" />
+            <SelectField field="Right_School Type-Original" selected="False" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Right_Street Address-Line 1" selected="False" />
+            <SelectField field="Street Address-Line 2" selected="True" />
+            <SelectField field="Right_Street Address-Line 2" selected="False" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Right_City" selected="False" />
+            <SelectField field="State-Physical" selected="True" />
+            <SelectField field="Right_State-Physical" selected="False" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Right_Zip Code" selected="False" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="Right_County" selected="False" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Right_CEP (Y/N)" selected="False" />
+            <SelectField field="Provision 1 (Y/N)" selected="True" />
+            <SelectField field="Right_Provision 1 (Y/N)" selected="False" />
+            <SelectField field="Provision 2 (Y/N)" selected="True" />
+            <SelectField field="Right_Provision 2 (Y/N)" selected="False" />
+            <SelectField field="Provision 3 (Y/N)" selected="True" />
+            <SelectField field="Right_Provision 3 (Y/N)" selected="False" />
+            <SelectField field="Claim Month" selected="True" />
+            <SelectField field="Right_Claim Month" selected="False" />
+            <SelectField field="Claim Year" selected="True" />
+            <SelectField field="Right_Claim Year" selected="False" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="ProvisionTypeApprovedLunch" selected="False" />
+            <SelectField field="Join Column" selected="False" />
+            <SelectField field="Right_ProvisionTypeApprovedBreakfast" selected="False" />
+            <SelectField field="Join Column " selected="False" />
+            <SelectField field="ProvisionTypeApprovedBreakfast" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1350" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="School ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="School ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_School ID" selected="True" rename="Right_School ID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1494" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1614" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="County" />
+            <Field field="District Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="County" />
+            <Field field="District Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_District Name" selected="True" rename="Right_District Name" input="Right_" />
+                <SelectField field="Right_County" selected="True" rename="Right_County" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1746" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1410" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="Right_School ID" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="Right_District Name" selected="False" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Operating Days-Lunch Only" selected="True" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="School Type-Original" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-Line 2" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State-Physical" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Provision 1 (Y/N)" selected="True" />
+            <SelectField field="Provision 2 (Y/N)" selected="True" />
+            <SelectField field="Provision 3 (Y/N)" selected="True" />
+            <SelectField field="Claim Month" selected="True" />
+            <SelectField field="Claim Year" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1950" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="Claim Month" selected="True" />
+            <SelectField field="Claim Year" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" type="Double" size="8" />
+            <SelectField field="Lunch Meals-Paid" selected="True" type="Double" size="8" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" type="Double" size="8" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="Operating Days-Lunch Only" selected="True" />
+            <SelectField field="Provision 1 (Y/N)" selected="True" />
+            <SelectField field="Provision 2 (Y/N)" selected="True" />
+            <SelectField field="Provision 3 (Y/N)" selected="True" />
+            <SelectField field="Right_County" selected="False" />
+            <SelectField field="Right_District Name" selected="False" />
+            <SelectField field="Right_School ID" selected="False" />
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="School Type-Original" selected="True" />
+            <SelectField field="State-Physical" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-Line 2" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2034" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="School ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="School ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_School ID" selected="True" rename="Right_School ID" input="Right_" />
+                <SelectField field="Left_Right_School ID" selected="True" rename="Left_Right_School ID" input="Left_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2178" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2850" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="School ID" selected="True" />
+            <SelectField field="School Name" selected="True" />
+            <SelectField field="District ID" selected="True" />
+            <SelectField field="District Name" selected="True" />
+            <SelectField field="State-Physical" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="Zip Code" selected="True" />
+            <SelectField field="Street Address-Line 1" selected="True" />
+            <SelectField field="Street Address-Line 2" selected="True" />
+            <SelectField field="School Level-Original" selected="True" />
+            <SelectField field="School Type-Original" selected="True" />
+            <SelectField field="CEP (Y/N)" selected="True" />
+            <SelectField field="Provision 1 (Y/N)" selected="True" />
+            <SelectField field="Provision 2 (Y/N)" selected="True" />
+            <SelectField field="Provision 3 (Y/N)" selected="True" />
+            <SelectField field="Universal Free (Y/N)" selected="True" />
+            <SelectField field="Claim Date" selected="True" />
+            <SelectField field="Claim Month" selected="True" />
+            <SelectField field="Claim Year" selected="True" />
+            <SelectField field="Enrollment-Total" selected="True" />
+            <SelectField field="Enrollment-Paid" selected="True" />
+            <SelectField field="Enrollment-Free" selected="True" />
+            <SelectField field="Enrollment-Reduced" selected="True" />
+            <SelectField field="Enrollment-Free and Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Free" selected="True" />
+            <SelectField field="Lunch Meals-Reduced" selected="True" />
+            <SelectField field="Lunch Meals-Paid" selected="True" />
+            <SelectField field="Lunch Meals-Free and Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Free" selected="True" />
+            <SelectField field="Breakfast Meals-Reduced" selected="True" />
+            <SelectField field="Breakfast Meals-Paid" selected="True" />
+            <SelectField field="Breakfast Meals-Free and Reduced" selected="True" />
+            <SelectField field="Operating Days" selected="True" />
+            <SelectField field="Operating Days-Breakfast Only" selected="True" />
+            <SelectField field="Operating Days-Lunch Only" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Campaign Tracking Data-Original" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Original" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source-Original" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source, Note Source Here" selected="True" />
+            <SelectField field="BAB Implementation Date from Campaign Tracking Data" selected="True" />
+            <SelectField field="BAB Implementation Date from State Agency Tracking" selected="True" />
+            <SelectField field="BAB Implementation Date from Other Source" selected="True" />
+            <SelectField field="BAB Implementation Date Other Source, Note Source Here" selected="True" />
+            <SelectField field="State-Reporting" selected="True" />
+            <SelectField field="ISP" selected="True" />
+            <SelectField field="FR Lunch Meals" selected="True" />
+            <SelectField field="FR Lunch ADP" selected="True" />
+            <SelectField field="FR Breakfast Meals" selected="True" />
+            <SelectField field="FR Breakfast ADP" selected="True" />
+            <SelectField field="Unique ID" selected="True" />
+            <SelectField field="NCES ID" selected="True" />
+            <SelectField field="School Year" selected="True" />
+            <SelectField field="Target Area" selected="True" />
+            <SelectField field="FR Enrollment" selected="True" />
+            <SelectField field="FR Enrollment Percentage" selected="True" />
+            <SelectField field="School Level Standardized" selected="True" />
+            <SelectField field="School Type-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Grants Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Innovations Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Campaign Tracking Data-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from State Agency Tracking-Standardized" selected="True" />
+            <SelectField field="Breakfast Delivery Model from Other Source-Standardized" selected="True" />
+            <SelectField field="BAB Implementation Date from Grants Data" selected="True" />
+            <SelectField field="Right_School ID" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="3078" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Admin\Desktop\ShareOurStrength-master\Alteryx Clean Data\Clean Data-California (csv).csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Clean Data-California (csv).csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2286" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Null()" field="ISP" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null() " field="Enrollment-Free and Reduced" size="8" type="Double" />
+            <FormulaField expression="Null()" field="Lunch Meals-Free and Reduced" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Meals-Free and Reduced" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null() " field="Operating Days" size="8" type="Double" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Campaign Tracking Data-Original" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from State Agency Tracking-Original" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Other Source-Original" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Other Source, Note Source Here" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date from Campaign Tracking Data" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date from State Agency Tracking" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date from Other Source" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date Other Source, Note Source Here" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Target Area" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Grants Data-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Innovations Data-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Campaign Tracking Data-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from State Agency Tracking-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Breakfast Delivery Model from Other Source-Standardized" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="BAB Implementation Date from Grants Data" size="1073741823" type="V_WString" />
+            <FormulaField expression="Null()" field="Universal Free (Y/N)" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;CA&quot;" field="State-Reporting" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF isnull([Lunch Meals-Free]) and Isnull([Lunch Meals-Reduced]) then [Lunch Meals-Free and Reduced] else&#xA;[Lunch Meals-Free]+[Lunch Meals-Reduced]&#xA;ENDIF&#xA;" field="FR Lunch Meals" size="64" type="String" />
+            <FormulaField expression="[State-Reporting]+&quot;@&quot;+&#xA;([School ID])+&quot;@&quot;+&#xA;([District ID])" field="Unique ID" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF isnull([Breakfast Meals-Free]) and Isnull([Breakfast Meals-Reduced]) then [Breakfast Meals-Free and Reduced] else&#xA;[Breakfast Meals-Free]+[Breakfast Meals-Reduced]&#xA;ENDIF&#xA;" field="FR Breakfast Meals" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ISP = Null()
+Enrollment-Free and Reduced = Null() 
+Lunch Meals-Free and Reduced ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="582" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>Claim Date</InputFieldName>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Claim Date 2</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Claim Date To:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="522" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>Claim Date</InputFieldName>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>Claim Date 2</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Claim Date To:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="966" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Join Column" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Join Column " />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_School ID" selected="True" rename="Right_School ID" input="Right_" />
+                <SelectField field="Right_Claim Date" selected="True" rename="Right_Claim Date" input="Right_" />
+                <SelectField field="Right_District Name" selected="True" rename="Right_District Name" input="Right_" />
+                <SelectField field="Right_School Name" selected="True" rename="Right_School Name" input="Right_" />
+                <SelectField field="Right_School Type-Original" selected="True" rename="Right_School Type-Original" input="Right_" />
+                <SelectField field="Right_ProvisionTypeApprovedBreakfast" selected="True" rename="Right_ProvisionTypeApprovedBreakfast" input="Right_" />
+                <SelectField field="Right_Street Address-Line 1" selected="True" rename="Right_Street Address-Line 1" input="Right_" />
+                <SelectField field="Right_Street Address-Line 2" selected="True" rename="Right_Street Address-Line 2" input="Right_" />
+                <SelectField field="Right_City" selected="True" rename="Right_City" input="Right_" />
+                <SelectField field="Right_State-Physical" selected="True" rename="Right_State-Physical" input="Right_" />
+                <SelectField field="Right_Zip Code" selected="True" rename="Right_Zip Code" input="Right_" />
+                <SelectField field="Right_County" selected="True" rename="Right_County" input="Right_" />
+                <SelectField field="Right_CEP (Y/N)" selected="True" rename="Right_CEP (Y/N)" input="Right_" />
+                <SelectField field="Right_Provision 1 (Y/N)" selected="True" rename="Right_Provision 1 (Y/N)" input="Right_" />
+                <SelectField field="Right_Provision 2 (Y/N)" selected="True" rename="Right_Provision 2 (Y/N)" input="Right_" />
+                <SelectField field="Right_Provision 3 (Y/N)" selected="True" rename="Right_Provision 3 (Y/N)" input="Right_" />
+                <SelectField field="Right_Claim Month" selected="True" rename="Right_Claim Month" input="Right_" />
+                <SelectField field="Right_Claim Year" selected="True" rename="Right_Claim Year" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1074" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="630" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[District Name]+&quot;-&quot;+[School ID]+[Claim Date]" field="Join Column" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Join Column = [District Name]+"-"+[School ID]+[Claim Date]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="678" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[District Name]+&quot;-&quot;+[School ID]+[Claim Date]" field="Join Column " size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Join Column  = [District Name]+"-"+[School ID]+[Claim Date]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="834" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="School ID" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School ID - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="822" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="School ID" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School ID - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1518" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if isNull([Right_School ID]) then [School ID] else [Right_School ID] ENDIF" field="School ID" size="15" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School ID = if isNull([Right_School ID]) then [School ID] else [Right_School ID]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1842" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if isNull([Right_School ID]) then [School ID] else [Right_School ID] ENDIF" field="School ID" size="15" type="String" />
+            <FormulaField expression="if isNull([Right_County]) then [County] else [Right_County] ENDIF" field="County" size="14" type="V_String" />
+            <FormulaField expression="if isNull([Right_District Name]) then [District Name] else [Right_District Name] ENDIF" field="District Name" size="61" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School ID = if isNull([Right_School ID]) then [School ID] else [Right_School ID]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="2958" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="School ID" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>School ID - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="2646" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>School Type-Original</FieldFind>
+          <FieldSearch>School Type-Original</FieldSearch>
+          <ReplaceFoundField>School Type-Standardized</ReplaceFoundField>
+          <FindMode>FindWhole</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="School Type-Standardized" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="2562" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data standardization guidance.xlsx
+Query=`School Type$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="School Type-Original" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`" type="V_WString" />
+            <Field name="School Type-Standardized" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`" type="V_String" />
+            <Field name="F4" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`School Type$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="2766" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>School Level-Original</FieldFind>
+          <FieldSearch>School Level Original</FieldSearch>
+          <ReplaceFoundField>School Type-Standardized</ReplaceFoundField>
+          <FindMode>FindWhole</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="School Level Standardized" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="2682" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`Archive - Old School Level$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data standardization guidance.xlsx
+Query=`Archive - Old School Level$...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="School Level Original" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`Archive - Old School Level$`" type="V_String" />
+            <Field name="School Level Standardized" size="255" source="File: C:\Users\Admin\Desktop\ShareOurStrength-master\Documents\Data standardization guidance.xlsx|||`Archive - Old School Level$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2502" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ISNULL([Operating Days-Lunch Only]) AND NOT ISNULL([Operating Days]) THEN &#xA;&#xA;  [FR Lunch Meals] /[Operating Days] &#xA; ELSE&#xA;  [FR Lunch Meals]/[Operating Days-Lunch Only]&#xA;ENDIF" field="FR Lunch ADP" size="19.6" type="FixedDecimal" />
+            <FormulaField expression="IF ISNULL([Operating Days-Breakfast Only]) AND NOT ISNULL([Operating Days]) THEN &#xA;&#xA;  [FR Breakfast Meals] /[Operating Days] &#xA; ELSE&#xA;  [FR Breakfast Meals]/[Operating Days-Breakfast Only]&#xA;ENDIF" field="FR Breakfast ADP" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF(Length([District ID]) &lt; 4)&#xA;THEN&#xA;PadLeft(tostring([District ID]), 4, &quot;0&quot;)&#xA;ELSE&#xA;[District ID]&#xA;ENDIF" field="NCES ID" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF ISNULL([Enrollment-Free and Reduced])&#xA;THEN &#xA;	IF ISNULL([Enrollment-Free]) AND ISNULL([Enrollment-Reduced])&#xA;    THEN NULL()&#xA;    ELSE&#xA;    [Enrollment-Free]+[Enrollment-Reduced]&#xA;    ENDIF&#xA;ELSE &#xA;[Enrollment-Free and Reduced]&#xA;ENDIF" field="FR Enrollment" size="8" type="Double" />
+            <FormulaField expression="IF [CEP (Y/N)] = &quot;N&quot; THEN&#xA;&#xA;  [FR Enrollment] / [Enrollment-Total]&#xA;&#xA;ELSEIF [CEP (Y/N)] = &quot;Y&quot; THEN&#xA;&#xA;  [Lunch Meals-Free] / ([Lunch Meals-Free] + [Lunch Meals-Paid])&#xA;&#xA;Else&#xA;Null()&#xA;ENDIF" field="FR Enrollment Percentage" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;SY18-19&quot;" field="School Year" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FR Lunch ADP = IF ISNULL([Operating Days-Lunch Only]) AND NOT ISNULL([Operating ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2394" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FR Lunch Meals" selected="True" type="Double" size="8" />
+            <SelectField field="FR Breakfast Meals" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="50" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output26" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="25" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="22" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="28" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output26" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output26" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="45" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="45" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="43" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="43" Connection="Join" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="43" Connection="Left" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="45" Connection="Join" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="45" Connection="Left" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="50" Connection="Join" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="50" Connection="Left" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="60" Connection="Join" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="60" Connection="Left" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="60" Connection="Right" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="60" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="60" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="71" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="71" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="69" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="69" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>California Alteryx Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
